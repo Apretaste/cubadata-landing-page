@@ -1,3 +1,0 @@
-Here goes the new CubaData website<br/>
-Testing PHP...
-<?php echo " CubaData"; ?>
