@@ -3071,6 +3071,8 @@ input, select, textarea {
 		text-align: center;
 		display: flex;
 		flex-wrap: wrap;
+		background: url('../../images/Cuba3_1.jpg') no-repeat;
+		background-size: cover;
 	}
 	#header div{
 		width: 200px;
@@ -3079,7 +3081,7 @@ input, select, textarea {
 		flex-grow: 1;
 	}
 	#header  div:last-child{
-		flex-grow: 4;
+		flex-grow: 3;
 	}
 	
 		#header h1 {
@@ -3089,6 +3091,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			font-weight: bold;
 		}
 
 		#header.alt {
@@ -3188,6 +3191,9 @@ input, select, textarea {
 				#header.alt {
 					padding: 4em 1.5em 1em 1.5em ;
 				}
+			#header h1{
+				font-size: 2em;
+			}
 
 		}
 
