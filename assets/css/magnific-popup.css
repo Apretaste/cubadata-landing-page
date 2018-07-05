@@ -4,7 +4,9 @@
 }
 .data-modal{
   text-align: center;
-  padding: 0 1.5%;
+  padding: 0 2%;
+  color: #fff !important;
+  font-size: 1.2em;
 }
 .mfp-bg {
   top: 0;
@@ -358,3 +360,9 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+.data-modal{
+  text-align: center;
+  padding: 0 1.5%;
+  color: #fff;
+}
+.data-modal p{color: #fff;}

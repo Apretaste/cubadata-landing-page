@@ -2916,6 +2916,7 @@ input, select, textarea {
 				-ms-border-radius: 50%;
 				border-radius: 50%;
 				float: left;
+				margin-right: 1em;
 			}
 
 
@@ -2931,7 +2932,7 @@ input, select, textarea {
 
 			.statistics {
 				display: block;
-				width: 20em;
+				width: 30em;
 				max-width: 100%;
 				margin: 0 auto 2em auto;
 			}
@@ -3742,7 +3743,7 @@ iframe{
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
-			font-size: 1em;
+			font-size: 1.3em;
 			text-align: center;
 			color: #fff;
 		}
@@ -3823,3 +3824,11 @@ iframe{
 			}
 
 		}
+
+	#intro{
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+.statistics li p:first-of-type{
+	font-weight: bold;
+}
