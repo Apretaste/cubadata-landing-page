@@ -1,12 +1,22 @@
 /* Magnific Popup CSS */
 .close{
-  font-size: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  position: absolute;
+  right: .3em;
+  top:0;
+  color: #fff;
 }
+.close{
+   color: #fff;
+ }
 .data-modal{
+  position: relative;
   text-align: center;
   padding: 0 2%;
   color: #fff !important;
   font-size: 1.2em;
+  z-index: 5000;
 }
 .mfp-bg {
   top: 0;
@@ -24,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 20000;
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; }
@@ -37,7 +47,10 @@
   left: 0;
   top: 0;
   padding: 0 8px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  z-index:20000;
+  background: rgba(0,0,0,.5);
+   }
 
 .mfp-container:before {
   content: '';
@@ -90,9 +103,12 @@
   display: none; }
 
 .mfp-hide {
+  position: absolute !important;
   display: none !important;
   text-align: center !important;
-  color: yellow; }
+  color: yellow;
+  z-index: 100 !important;
+   }
 
 .mfp-preloader {
   color: #CCC;
@@ -366,3 +382,7 @@ img.mfp-img {
   color: #fff;
 }
 .data-modal p{color: #fff;}
+.test-modal{
+  position: absolute;
+  z-index: 20000;
+}
