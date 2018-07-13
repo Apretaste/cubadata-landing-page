@@ -4,6 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 (function($) {
 
 	var	$window = $(window),
@@ -33,7 +34,7 @@
 		if ($nav.length > 0) {
 
 			// Shrink effect.
-				$main
+				/*$main
 					.scrollex({
 						mode: 'top',
 						enter: function() {
@@ -42,7 +43,7 @@
 						leave: function() {
 							$nav.removeClass('alt');
 						},
-					});
+					});*/
 
 			// Links.
 				var $nav_a = $nav.find('a');
@@ -119,5 +120,10 @@
 		$('.scrolly').scrolly({
 			speed: 1000
 		});
+$("#show").click(function(){
+	$("#text").fadeToggle(3000);
+	 $("#graph").fadeToggle(3000);
+});
+
 
 })(jQuery);

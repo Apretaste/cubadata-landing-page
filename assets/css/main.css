@@ -291,6 +291,7 @@ input, select, textarea {
 		hr.major {
 			margin: 3em 0;
 		}
+
 	span.bold{
 		font-weight: bold;
 	}
@@ -2825,7 +2826,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.features {
+			/*.features {
 				width: 100%;
 				margin: 0 0 2em 0;
 			}
@@ -2838,7 +2839,7 @@ input, select, textarea {
 
 					.features li:nth-child(2){
 						margin-top: 2em;
-					}
+					}*/
 
 		}
 
@@ -2981,22 +2982,31 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 		.spotlight .content {
-			-moz-flex: 1;
+			/*-moz-flex: 1;
 			-webkit-flex: 1;
 			-ms-flex: 1;
-			flex: 1;
+			flex: 1;*/
+		}
+		.spotlight div{
+			vertical-align: top;
+			padding: 2em;
+		}
+		.spotlight h2{
+			color: #00305B !important;
+		
 		}
 		.spotlight > div:first-child{
 			flex:1;
-			background:#EAF4F6;
+			
 		}
 
 		.spotlight > div:last-child{
 			flex:2;
+			background:#EAF4F6;
 		}
 
 			.spotlight .content > :last-child {
@@ -3064,6 +3074,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					width: 100%;
+					padding: 0;
 				}
 
 			.spotlight .image {
@@ -3089,20 +3100,24 @@ input, select, textarea {
 	#header {
 		padding: 0em 3em 0em 3em ;
 		text-align: center;
-		display: flex;
+		/*display: flex;*/
 		flex-wrap: wrap;
 		background: url('../../images/cuba4.png') no-repeat;
 		background-size: cover;
+
+		height: 600px;
+		margin-top: 80px;
+		position: relative;
 	}
-	#header div{
+	/*#header div{
 		width: 200px;
 	}
-	#header div:first-child{
+	#header div:first-child{s
 		flex-grow: 1;
 	}
 	#header  div:last-child{
 		flex-grow: 3;
-	}
+	}*/
 	
 		#header h1 {
 			margin: 0 0 0.25em 0;
@@ -3123,7 +3138,7 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
+				/*-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
 				transition: opacity 3s ease;
@@ -3131,7 +3146,44 @@ input, select, textarea {
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
-				opacity: 1;
+				opacity: 1;*/
+				position: relative;
+
+			}
+			#header.alt >div{
+				position: absolute;
+				right: 0;
+				left: 0;
+				margin: auto;
+
+			}
+			#header.alt >div:first-child{
+				width: 60%;
+				padding-top: 5%;
+
+			}
+			#header.alt >div:first-child h2{
+				font-size: 3em;
+			}
+			#header.alt >div:first-child p{
+				font-size: 1.2em;
+			}
+			#header.alt >div:nth-child(2){
+				width: 70%;
+			}
+			#header.alt >div:nth-child(2) h2{
+				letter-spacing: 2px !important;
+			}
+			#header div#but{
+				bottom: 4%;
+				left: 0;
+				right: 0;
+				margin: auto;
+				
+
+			}
+			#header button{
+				background:rgba( 127, 179, 213,.4);
 			}
 
 			#header.alt .logo {
@@ -3181,6 +3233,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 2em 0.1em 2em ;
+				margin-top: 0;
 			}
 
 				#header p {
@@ -3191,8 +3244,11 @@ input, select, textarea {
 					#header p br {
 						display: none;
 					}
-
+				header#header{
+				margin-top: 0px;
+			}
 				#header.alt {
+					margin-top: 0;
 					padding: 4em 2em 1em 2em ;
 				}
 
@@ -3206,6 +3262,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
+				height: 450px;
 			}
 
 				#header.alt {
@@ -3214,6 +3271,13 @@ input, select, textarea {
 			#header h1{
 				font-size: 2em;
 			}
+			#header.alt >div:first-child h2{
+				font-size: 2em;
+			}
+			#header.alt >div:first-child p{
+				font-size: 1em;
+			}
+
 
 		}
 
@@ -3259,7 +3323,7 @@ iframe{
 }
 #work li p:first-child{
 	font-weight: bold;
-	margin-bottom: 1em;
+	margin-bottom: .1em;
 }
 
 /* Nav */
@@ -3272,15 +3336,21 @@ iframe{
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 1em);
+		width: 100%;
+		/*max-width: calc(100% - 1em);*/
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+
 	}
+		#nav > img{
+			position: absolute;
+			top:0;
+			left: 0;
+		}
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3312,13 +3382,15 @@ iframe{
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			/*padding-top: 4.25em;*/
 		}
 
 		#nav ul {
 			margin: 0;
-			padding: 0;
+			padding: 1em 0;
 			list-style: none;
+			
+			float: right;
 		}
 
 			#nav ul li {
@@ -3354,6 +3426,7 @@ iframe{
 						background-color: #ffffff;
 						box-shadow: none;
 					}
+				
 
 		#nav.alt {
 			position: fixed;
@@ -3366,7 +3439,7 @@ iframe{
 		}
 
 			#nav.alt ul li {
-				margin: 0 0.1em;
+				margin: 0 0.3em;
 			}
 
 				#nav.alt ul li a {
@@ -3471,7 +3544,7 @@ iframe{
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #7fb3d5 ;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3738,6 +3811,9 @@ iframe{
 						}
 
 		}
+		#main > .main:first-child{
+			padding: 0;
+		}
 
 /* Footer */
 
@@ -3763,7 +3839,7 @@ iframe{
 		#footer .copyright {
 			width: 100%;
 			/*margin: 2.5em 0 2em 0;*/
-			font-size: 1.3em;
+			font-size: 1em;
 			text-align: center;
 			color:#0F67C5
 		}
@@ -3828,9 +3904,9 @@ iframe{
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
-		max-width: calc(100% - 1em);
-		margin: 0 auto;
+		width: 100%;
+		/*max-width: calc(100% - 1em);*/
+		/*margin: 0 auto;*/
 	}
 
 		@media screen and (max-width: 480px) {
@@ -3860,6 +3936,9 @@ iframe{
 	background:#FF6161;
 	color: #fff;
 }
+#report a,.features a{
+	font-weight: bold;
+}
 h2.font_2{
 	font-family: raleway,sans-serif;
 font-style: normal;
@@ -3879,6 +3958,9 @@ font-variant-east-asian: normal;
 font-variant-ligatures: normal;
 font-variant-numeric: normal;
 font-variant-position: normal;
+
+}
+.content{
 
 }
 #report h2{
@@ -3916,14 +3998,24 @@ font-variant-position: normal;
 			}
 
 		}
+#work p{
+	color:#0F78DC !important;
+}
+#work p:first-child,#experts h3{
+	color: #00305B !important;
+}
 
 /*Slider*/
 
 #slider{
+	
 	position: relative;
-	height: 400px;
+	height: 380px;
 	text-align: center;
 	
+}
+#myCarousel{
+	padding-top: 2em;
 }
 .carousel-inner img {
 	margin: auto;
@@ -3948,36 +4040,107 @@ font-variant-position: normal;
 		height: 300px;
 	}
 }
+#experts h2{
+	color: #00305B !important;
+}
+/***** contact*****/
 #contact{
-	background:#EAF4F6;
+	background: url('../../images/contactenos4.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	flex-wrap: wrap;
+ 	}
+#contact > *{
+	width: 480px;
+	/*height: 450px;*/
+}
+#contact header{
+	flex: 1;
+	background:rgba( 23, 23, 115 ,.4);
+	padding: 6em 3em;
+	
+	
 }
 
- #contact-details{
- 	display: flex;
- 	flex-wrap: wrap;
- }
- #contact-details div{
- 	width: 600px;
- }
-#contact-details div:first-child{
-	color:#fff;
-	background:#103F6D;
-	flex-grow: 1;
-
+#contact >div{
+	flex: 2;
+	padding: 6em;
+	background:rgba( 23, 23, 115 ,.7);
 }
-#contact-details div:first-child p{
-	font-size: 1.9em;
-	font-weight: bold;
-	margin-bottom: 1em;
-}
-#contact-details div:first-child h2{
+#contact h2{
 	color: #fff !important;
 }
-#contact-details div:last-child{
-flex-grow: 1;
+#phone{
+	font-size: 50px;
 }
+#email,#address{
+	font-size: 1.7em;
+}
+@media screen and (max-width: 980px) {
+#contact header h2{
+	font-size: 2em;
+}
+}
+@media screen and (max-width: 736px) {
+#contact{
+	flex-direction: column;
+	text-align: center!important;	
+	/*height: 300px;*/
+}
+#contact >*{
+	width: 100%;
+	text-align: center;
+	padding: 10em;
+}
+#contact >div{
+	
+	padding: 2em;
+
+}
+
+}
+
+ 
 @media screen and (max-width: 480px) {
-	#contact-details div:first-child p{
+	#contact h2{
+	font-size: 2em !important;
+}
+}
+/*fix header */
+/*header#header.alt{
+margin-top: 80px;
+
+}*/
+
+#graph{
+	display: none;
+}
+.hide{
+	display: none;
+
+}
+/*****  App Section   ***/
+#app{
+	background: linear-gradient(#2EAADD,#2EAAEE);
+	padding: 4em !important;
+}
+#app a{
+	background: #97C024 !important;
+	font-weight: bold;
 	font-size: 1.2em;
 }
+#app a:hover{
+	
 }
+#app img{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+#app h2{
+	color: #fff;
+}
+
+
+
+

@@ -13,7 +13,7 @@
 .data-modal{
   position: relative;
   text-align: center;
-  padding: 0 2%;
+  padding: 0;
   color: #fff !important;
   font-size: 1.2em;
   z-index: 5000;
@@ -49,7 +49,7 @@
   padding: 0 8px;
   box-sizing: border-box;
   z-index:20000;
-  background: rgba(0,0,0,.5);
+  background: rgba(47, 138, 205,.5);
    }
 
 .mfp-container:before {
@@ -67,7 +67,9 @@
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 1045; 
+ 
+}
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
@@ -378,7 +380,7 @@ img.mfp-img {
     padding-right: 6px; } }
 .data-modal{
   text-align: center;
-  padding: 0 1.5%;
+  padding: 0 9%;
   color: #fff;
 }
 .data-modal p{color: #fff;}
