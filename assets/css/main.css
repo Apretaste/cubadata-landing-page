@@ -2778,7 +2778,7 @@ input, select, textarea {
 
 /* Features */
 
-	.features {
+	.features,.core {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2799,7 +2799,15 @@ input, select, textarea {
 
 		.features li {
 			width: calc(25% - 2.5em);
-			margin-left: 2em;
+			margin-left: 1em;
+			margin-right: .3em;
+			margin-top: 3em;
+			padding: 0;
+		}
+		.core li{
+			width: calc(50% - 2em);
+			margin-left: 1em;
+			margin-right: .3em;
 			margin-top: 3em;
 			padding: 0;
 		}
@@ -2825,6 +2833,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			.features li h3{
+				font-size: 1em !important;
+				
+			}
 
 			/*.features {
 				width: 100%;
@@ -3103,9 +3115,9 @@ input, select, textarea {
 		/*display: flex;*/
 		flex-wrap: wrap;
 		background: url('../../images/cuba4.png') no-repeat;
-		background-size: cover;
+		background-size: 100% 100%;
 
-		height: 600px;
+		height: 850px;
 		margin-top: 80px;
 		position: relative;
 	}
@@ -3127,6 +3139,7 @@ input, select, textarea {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
 			font-weight: bold;
+			color: #fff;
 		}
 
 		#header.alt {
@@ -3151,9 +3164,9 @@ input, select, textarea {
 
 			}
 			#header.alt >div{
-				position: absolute;
+				/*position: absolute;
 				right: 0;
-				left: 0;
+				left: 0;*/
 				margin: auto;
 
 			}
@@ -3182,8 +3195,11 @@ input, select, textarea {
 				
 
 			}
-			#header button{
+			#header a{
 				background:rgba( 127, 179, 213,.4);
+			}
+			#header a:hover{
+				background: rgba(121, 224, 241,.5);
 			}
 
 			#header.alt .logo {
@@ -3209,6 +3225,7 @@ input, select, textarea {
 
 			#header {
 				padding: 4em 4em 0.1em 4em ;
+				height: 670px;
 			}
 
 				#header.alt {
@@ -3234,6 +3251,7 @@ input, select, textarea {
 			#header {
 				padding: 3em 2em 0.1em 2em ;
 				margin-top: 0;
+				height: 500px;
 			}
 
 				#header p {
@@ -3252,9 +3270,9 @@ input, select, textarea {
 					padding: 4em 2em 1em 2em ;
 				}
 
-					#header.alt h1 {
-						font-size: 2.5em;
-					}
+					#header.alt >div:first-child h2{
+				font-size: 2.5em;
+			}
 
 		}
 
@@ -3262,7 +3280,7 @@ input, select, textarea {
 
 			#header {
 				padding: 3em 1.5em 0.1em 1.5em ;
-				height: 450px;
+				/*height: 450px;*/
 			}
 
 				#header.alt {
@@ -3841,7 +3859,8 @@ iframe{
 			/*margin: 2.5em 0 2em 0;*/
 			font-size: 1em;
 			text-align: center;
-			color:#0F67C5
+			color:#0F67C5;
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3857,7 +3876,7 @@ iframe{
 			#footer {
 				padding: 2em 3em 0em 1em ;
 				display: block;
-				margin: 0 0 3em 0;
+				margin: 0 0 2em 0;
 				width: 100%;
 			}
 
@@ -3896,7 +3915,7 @@ iframe{
 			}
 			#footer .copyright {
 					font-weight: normal;
-					font-size: 1.1em;
+					font-size: .9em;
 				}
 
 		}
@@ -3912,7 +3931,8 @@ iframe{
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 1em);
+				width: 100%;
+				/*max-width: calc(100% - 1em);*/
 			}
 
 		}
@@ -3920,7 +3940,8 @@ iframe{
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: 100%;
+				/*max-width: 100%;*/
+				
 			}
 
 		}
@@ -3967,7 +3988,7 @@ font-variant-position: normal;
 	color:#F7F7F7;
 }
 #second{
-	background: #3F75BF;
+	background: #00305B;
 	color: #F7F7F7;
 	padding: 0 5em;
 }
@@ -4035,6 +4056,10 @@ font-variant-position: normal;
  	height: 100%;
  	text-align: center;
  }
+ a.right.carousel-control,a.left.carousel-control{
+ 	background: none;
+ 	color: gray;
+ }
 @media screen and (max-width: 480px) {
 	#slider{
 		height: 300px;
@@ -4045,10 +4070,14 @@ font-variant-position: normal;
 }
 /***** contact*****/
 #contact{
-	background: url('../../images/contactenos4.png') no-repeat;
+	background: url('../../images/9_editada.jpg') no-repeat;
 	background-size: 100% 100%;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
+	height: 500px;
  	}
 #contact > *{
 	width: 480px;
@@ -4056,7 +4085,7 @@ font-variant-position: normal;
 }
 #contact header{
 	flex: 1;
-	background:rgba( 23, 23, 115 ,.4);
+	/*background:rgba( 23, 23, 115 ,.4);*/
 	padding: 6em 3em;
 	
 	
@@ -4065,7 +4094,7 @@ font-variant-position: normal;
 #contact >div{
 	flex: 2;
 	padding: 6em;
-	background:rgba( 23, 23, 115 ,.7);
+	background:rgba(0, 35, 92,.6);
 }
 #contact h2{
 	color: #fff !important;
@@ -4084,13 +4113,15 @@ font-variant-position: normal;
 @media screen and (max-width: 736px) {
 #contact{
 	flex-direction: column;
-	text-align: center!important;	
+	text-align: center!important;
+	height: auto;	
 	/*height: 300px;*/
 }
 #contact >*{
+	flex:1;
 	width: 100%;
 	text-align: center;
-	padding: 10em;
+	/*padding: 10em;*/
 }
 #contact >div{
 	
@@ -4121,7 +4152,7 @@ margin-top: 80px;
 }
 /*****  App Section   ***/
 #app{
-	background: linear-gradient(#2EAADD,#2EAAEE);
+	background: linear-gradient(#00305B,#00305B);
 	padding: 4em !important;
 }
 #app a{
@@ -4135,11 +4166,36 @@ margin-top: 80px;
 #app img{
 	width: 30px;
 	height: 30px;
-	margin-top: 5px;
+	margin-top: 5%;
+	position: absolute;
+	left: 5%;
 }
 #app h2{
 	color: #fff;
 }
+#app footer li{
+	position: relative;
+
+}
+@media screen and (max-width: 736px) {
+	#app a{
+		padding-left: 2em;
+	}
+}
+@media screen and (min-width: 1280px) {
+
+			#app img{
+				margin-top: 10%;
+			}
+
+		}
+.container-width{
+	max-width: 1024px;
+	
+	margin: auto;
+}
+/*  slider*/
+
 
 
 
