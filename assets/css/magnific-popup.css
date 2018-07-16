@@ -74,7 +74,8 @@
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
   width: 100%;
-  cursor: auto; }
+  cursor: auto;
+  }
 
 .mfp-ajax-cur {
   cursor: progress; }
@@ -378,6 +379,10 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+  @media all and (min-width: 655px){
+   
+  }
 .data-modal{
   text-align: center;
   padding: 0 9%;
