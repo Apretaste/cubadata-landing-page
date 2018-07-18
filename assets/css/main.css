@@ -2811,6 +2811,10 @@ input, select, textarea {
 			margin-top: 3em;
 			padding: 0;
 		}
+		.features li h3{
+			font-size: 1.4em;
+		}
+		
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3),.features li:nth-child(4) {
 				margin-top: 0;
@@ -2825,6 +2829,9 @@ input, select, textarea {
 			.features li {
 				width: calc(50% - 2em);
 			}
+			.features{
+				margin-bottom: 0;
+			}
 
 				/*.features li:nth-child(3) {
 					margin-top: 3em;
@@ -2834,7 +2841,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			.features li h3{
-				font-size: 1em !important;
+				font-size: .9em !important;
 				
 			}
 
@@ -2854,6 +2861,14 @@ input, select, textarea {
 					}*/
 
 		}
+		@media screen and (max-width: 480px){
+			.features li,.core li {
+				width:41% !important;
+			}
+			.features img,.core img{
+			width: 100%;
+		}
+		}
 
 /* Statistics */
 
@@ -2864,7 +2879,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 0 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -3136,9 +3151,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.5em !important;
 			letter-spacing: -0.025em;
-			font-weight: bold;
 			color: #fff;
 		}
 
@@ -3188,9 +3202,8 @@ input, select, textarea {
 				letter-spacing: 2px !important;
 			}
 			#header div#but{
-				bottom: 4%;
-				left: 0;
-				right: 0;
+				/*bottom: 4%;*/
+
 				margin: auto;
 				
 
@@ -3271,7 +3284,7 @@ input, select, textarea {
 				}
 
 					#header.alt >div:first-child h2{
-				font-size: 2.5em;
+				font-size: 2.2em;
 			}
 
 		}
@@ -3293,8 +3306,9 @@ input, select, textarea {
 				font-size: 2em;
 			}
 			#header.alt >div:first-child p{
-				font-size: 1em;
+				font-size: 1.2em !important;
 			}
+
 
 
 		}
@@ -3308,7 +3322,12 @@ input, select, textarea {
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
-
+			#header.alt >div:first-child h2{
+				font-size: 1.8em;
+			}
+			#header.alt >div:first-child p{
+				font-size: .7em;
+			}
 		}
 
 		body.is-preload #header.alt > * {
@@ -3364,9 +3383,12 @@ iframe{
 		text-align: center;
 
 	}
-		#nav > img{
+	#nav .container-width{
+		position: relative;
+	}
+		#nav  img{
 			position: absolute;
-			top:0;
+			top:-5px;
 			left: 0;
 		}
 
@@ -3473,12 +3495,20 @@ iframe{
 				#nav + #main {
 					padding-top: 0;
 				}
+				#work{
+					padding-left: 0;
+				}
 			#work{
 				flex-direction: column;
 			}
 			#work li{
 				width: 100%;
 			}
+			#work p+p{
+				font-size: 1.2em;
+				text-align: justify;
+			}
+
 
 		}
 
@@ -3950,6 +3980,12 @@ iframe{
 		padding-bottom: 0 !important;
 		margin-bottom: 0 !important;
 	}
+	#intro.main{
+		padding: 0;
+	}
+	#intro h2{
+		margin: 0;
+	}
 .statistics li p:first-of-type{
 	font-weight: bold;
 }
@@ -3991,6 +4027,7 @@ font-variant-position: normal;
 	background: #00305B;
 	color: #F7F7F7;
 	padding: 0 5em;
+
 }
 #second h2{
 	color: #F7F7F7;
@@ -4000,6 +4037,9 @@ font-variant-position: normal;
 			#header h2.font_2{
 				font-size: 30px;
 
+			}
+			#work{
+				margin-bottom: 0;
 			}
 
 		}
@@ -4017,6 +4057,7 @@ font-variant-position: normal;
 			#wrapper {
 				max-width: 100%;
 			}
+
 
 		}
 #work p{
@@ -4062,14 +4103,15 @@ font-variant-position: normal;
  }
 @media screen and (max-width: 480px) {
 	#slider{
-		height: 300px;
+		height: 100%;
+		margin-bottom:1.1em;
 	}
 }
 #experts h2{
 	color: #00305B !important;
 }
 /***** contact*****/
-#contact{
+#contact {
 	background: url('../../images/9_editada.jpg') no-repeat;
 	background-size: 100% 100%;
 	display: -moz-flex;
@@ -4077,15 +4119,15 @@ font-variant-position: normal;
 	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
-	height: 500px;
+	height: 600px;
  	}
-#contact > *{
+#contact .container-width > *{
 	width: 480px;
 	/*height: 450px;*/
 }
 #contact header{
 	flex: 1;
-	/*background:rgba( 23, 23, 115 ,.4);*/
+	background:rgba(0, 35, 92,.6);
 	padding: 6em 3em;
 	
 	
@@ -4094,16 +4136,17 @@ font-variant-position: normal;
 #contact >div{
 	flex: 2;
 	padding: 6em;
-	background:rgba(0, 35, 92,.6);
+	background:rgba(0, 35, 92,.4);
+	
 }
 #contact h2{
 	color: #fff !important;
 }
 #phone{
-	font-size: 50px;
+	font-size: 2.8em;
 }
 #email,#address{
-	font-size: 1.7em;
+	font-size: 2.8em;
 }
 @media screen and (max-width: 980px) {
 #contact header h2{
@@ -4125,16 +4168,42 @@ font-variant-position: normal;
 }
 #contact >div{
 	
-	padding: 2em;
+	padding: 1.6em;
 
+}
+#phone{
+	font-size: 2em;
+}
+#email{
+	font-size: 1.9em;
 }
 
 }
 
  
 @media screen and (max-width: 480px) {
+	#contact header{
+		padding: 4em 2em;
+	}
 	#contact h2{
 	font-size: 2em !important;
+}
+#phone{
+	font-size: 1.2em !important;
+}
+#email{
+	font-size: 1em !important;
+}
+}
+@media screen and (max-width: 360px) {
+	#contact h2{
+	font-size: 1.7em !important;
+}
+	#phone{
+	font-size: 2px !important;
+}
+#email{
+	font-size: 1em !important;
 }
 }
 /*fix header */
@@ -4177,6 +4246,9 @@ margin-top: 80px;
 	position: relative;
 
 }
+#app ul{
+	margin-bottom: 0;
+}
 @media screen and (max-width: 736px) {
 	#app a{
 		padding-left: 2em;
@@ -4189,10 +4261,13 @@ margin-top: 80px;
 			}
 
 		}
+
+@media screen and (min-width: 1024px){
 .container-width{
 	max-width: 1024px;
 	
 	margin: auto;
+}
 }
 /*  slider*/
 
