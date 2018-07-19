@@ -12,10 +12,11 @@
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/magnific-popup.css">
-		 
+		 <link rel="stylesheet" type="text/css" href="assets/css/switchery.css">
+		 <link rel="stylesheet" type="text/css" href="assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" href="images/cuba.jpeg">
-
+		
 	</head>
 	<body class="">
 					<!--<figure id="logo">
@@ -24,6 +25,9 @@
 					
 
 				<header id="header" class="alt">
+						<span id="idiom">
+							<img src="images/blank.gif" class="flag flag-es" alt="spain" /><input type="checkbox" class="js-switch" name="name2" checked /><img src="images/blank.gif" class="flag flag-us" alt="english" />
+						</span>
 						<div id="text">
 							<h2 class="font_2">PLEASE, ASK <br><span class="bold">ANYTHINKG</span><br> ABOUT <span class="bold">CUBA</span></h2>
 							<p>We specialize in Market Research in Cuba. When you need data, you are not alone anymore.</p>
@@ -37,7 +41,7 @@
 						</div>-->
 						<div id="but"><a href="#slider" class="button default" id="show">See Data</a>
 						</div>
-						
+						<div></div>
 								
 						<!--<span class="logo"><img src="images/logo.svg" alt="" /></span>
 						<h1>Stellar</h1>
@@ -55,8 +59,10 @@
 				<!-- Nav -->
 				
 					<nav id="nav" class="alt">
+
 							<div class="container-width">
 							<img src="images/cubadata_logo_horizontal.png" alt="logo cubadata" width="133" height="78">
+
 							<ul>
 								<li><a href="#intro" class="active">HOME</a></li>
 								<li><a href="#intro">OUR WORK</a></li>
@@ -64,7 +70,9 @@
 								<li><a href="#report">FREE REPORT</a></li>
 								<li><a href="#experts">OUR TEAM</a></li>
 								<li><a href="#contact">CONTACT</a></li>
+								<li><img src="images/blank.gif" class="flag flag-es" alt="spain" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1" checked /><img src="images/blank.gif" class="flag flag-us" alt="english" /></li>
 							</ul>
+							
 							</div>
 					</nav>
 					
@@ -119,6 +127,7 @@
 								<div class="spotlight">
 									<div class="content">
 										<div class="major">
+
 											<h2 class="font_2">CUBA IS AN <span class="bold">UNCERTAIN</span> MARKET, LET US FEED YOU WITH <span class="bold">INTEL</span></h2>
 										</div>
 										
@@ -152,6 +161,7 @@
 							<section id="second" class="main special">
 								<div class="container-width">
 								<header class="major">
+
 									<h2 class="font_2">WHY <span class="bold">US</span>?</h2>
 								
 								</header>
@@ -380,6 +390,7 @@
 							</ul>
 						--></section>
 						<p class="copyright">Copyright © 2018 by Cuba Data LLC. All rights reserved</p>
+
 					</footer>
 			</div>
 
@@ -400,8 +411,10 @@
 
 <!-- Magnific Popup core JS file -->
 <script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/switchery.js"></script>
 <script type="text/javascript">
 $(function () {
+	$('.js-switch').prop("checked","checked");
 	$('.popup-modal').magnificPopup({
 		type: 'inline',
 		preloader: false,
@@ -413,7 +426,20 @@ $(function () {
 		$.magnificPopup.close();
 	});
 });</script>
+	<script type="text/javascript">
+		
+		/*var elem = document.querySelector('.js-switch');
+	var switchery = new Switchery(elem, { size: 'small',secondaryColor: '#2186DD'});*/
+	var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
 
+	elems.forEach(function(html) {
+ 	 var switchery = new Switchery(html,{ size: 'small',secondaryColor: '#2186DD'});
+	});	
+
+elem.onchange = function() {
+ alert(elem.checked)//location.href ="http://www.google.com";
+};
+	</script>
 
 	</body>
 </html>
