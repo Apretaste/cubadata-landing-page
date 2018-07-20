@@ -3031,12 +3031,12 @@ input, select, textarea {
 		}
 		.spotlight > div:first-child{
 			flex:1;
-			
+			background: #EAF4F6;
 		}
 
 		.spotlight > div:last-child{
 			flex:2;
-			background:#EAF4F6;
+			
 		}
 
 			.spotlight .content > :last-child {
@@ -3149,8 +3149,9 @@ input, select, textarea {
 		flex-grow: 3;
 	}*/
 	#header .big{
-		font-size: 60px;
+		font-size: 57px;
 		text-shadow: 3px 3px 3px black;
+
 	}
 	#header #idiom{
 		display: none;
@@ -3159,7 +3160,8 @@ input, select, textarea {
 		right: 1%;
 	}
 		#header h2.font_2{
-			margin-top: 3em;
+			margin-top: 2em;
+			line-height: 70px;
 		}
 	
 		#header h1{
@@ -3224,6 +3226,7 @@ input, select, textarea {
 				
 
 			}
+
 			#header a{
 				background:rgba( 127, 179, 213,.4);
 			}
@@ -3279,6 +3282,9 @@ input, select, textarea {
 			#header #idiom{
 				display: block;
 			}
+			#header h2.font_2{
+				margin-top: 30px;
+			}
 			#header {
 				padding: 3em 2em 0.1em 2em ;
 				margin-top: 0;
@@ -3306,6 +3312,7 @@ input, select, textarea {
 			}
 			#header .big{
 				font-size: 40px;
+				line-height: 40px;
 			}
 				#header.alt >div:first-of-type p{
 				font-size: 1.4em !important;
@@ -3334,7 +3341,7 @@ input, select, textarea {
 			}
 
 			#header .big{
-				font-size: 34px;
+				font-size: 30px;
 			}
 
 		}
@@ -3353,6 +3360,9 @@ input, select, textarea {
 			}
 			#header.alt >div:first-child p{
 				font-size: .7em;
+			}
+			#header h2.font_2{
+				line-height: 40px;
 			}
 		}
 
@@ -3387,6 +3397,7 @@ iframe{
 #work li p:first-child{
 	font-weight: bold;
 	margin-bottom: .1em;
+	line-height: 2em !important;
 }
 
 /* Nav */
@@ -4097,7 +4108,7 @@ font-variant-position: normal;
 #work p{
 	color:#0F78DC !important;
 }
-#work p:first-child,#experts h3{
+#work p,#experts h3{
 	color: #00305B !important;
 }
 
@@ -4195,9 +4206,12 @@ font-variant-position: normal;
 	text-shadow: 3px 3px 3px black;
 }
 @media screen and (min-width: 1280px) {
-#contact .container-width >div{
+/*#contact .container-width >div{
 	padding: 3em;
 }
+#contact .container-width >header{
+	padding: 3em;
+}*/
 
 }
 @media screen and (max-width: 980px) {
