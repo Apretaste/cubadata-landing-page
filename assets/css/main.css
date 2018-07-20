@@ -2805,7 +2805,7 @@ input, select, textarea {
 			padding: 0;
 		}
 		.core li{
-			width: calc(50% - 2em);
+			width: calc(40% - 2em);
 			margin-left: 1em;
 			margin-right: .3em;
 			margin-top: 3em;
@@ -2843,6 +2843,9 @@ input, select, textarea {
 			.features li h3{
 				font-size: .9em !important;
 				
+			}
+			.core li{
+				width: calc(50% - 2em);
 			}
 
 			/*.features {
@@ -3131,9 +3134,9 @@ input, select, textarea {
 		flex-wrap: wrap;
 		background: url('../../images/cuba4.png') no-repeat;
 		background-size: 100% 100%;
-
-		height: 850px;
-		margin-top: 80px;
+		height: 100vh !important;
+		/*height: 850px;*/
+		margin-top: 60px;
 		position: relative;
 	}
 	/*#header div{
@@ -3145,12 +3148,19 @@ input, select, textarea {
 	#header  div:last-child{
 		flex-grow: 3;
 	}*/
+	#header .big{
+		font-size: 60px;
+		text-shadow: 3px 3px 3px black;
+	}
 	#header #idiom{
 		display: none;
 		position: absolute;
 		top: 1%;
 		right: 1%;
 	}
+		#header h2.font_2{
+			margin-top: 3em;
+		}
 	
 		#header h1{
 			margin: 0 0 0.25em 0;
@@ -3276,7 +3286,7 @@ input, select, textarea {
 			}
 
 				#header p {
-					font-size: 1em;
+					font-size: .9em;
 					letter-spacing: 0;
 				}
 
@@ -3294,6 +3304,12 @@ input, select, textarea {
 					#header.alt >div:first-child h2{
 				font-size: 2.2em;
 			}
+			#header .big{
+				font-size: 40px;
+			}
+				#header.alt >div:first-of-type p{
+				font-size: 1.4em !important;
+			}
 
 		}
 
@@ -3310,14 +3326,16 @@ input, select, textarea {
 			#header h1{
 				font-size: 2em;
 			}
-			#header.alt >div:first-child h2{
-				font-size: 2em;
+			#header.alt >div:first-of-type h2{
+				font-size: 1.8em;
 			}
-			#header.alt >div:first-child p{
+			#header.alt >div:first-of-type p{
 				font-size: 1.2em !important;
 			}
 
-
+			#header .big{
+				font-size: 34px;
+			}
 
 		}
 
@@ -3394,6 +3412,14 @@ iframe{
 	#nav .container-width{
 		position: relative;
 	}
+		#nav .flag-cu{
+			margin-right: .2em;
+
+		}
+		#nav .flag-us{
+			margin-left: .2em;
+		}
+		
 		#nav  div >img{
 			position: absolute;
 			top:-5px;
@@ -3882,7 +3908,7 @@ iframe{
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 2em 4em 1em 4em ;
 		width: calc(100% + 2em);
 		margin: 0 0 0em -2em;
 	}
@@ -4119,32 +4145,42 @@ font-variant-position: normal;
 	color: #00305B !important;
 }
 /***** contact*****/
-#contact {
-	background: url('../../images/9_editada.jpg') no-repeat;
+#contact{
+	background: #2257BE;
+	/*display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;*/
+	
+ 	}
+ #contact .container-width{
+ 	background: url('../../images/9_editada.jpg') no-repeat;
 	background-size: 100% 100%;
-	display: -moz-flex;
+ 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
-	height: 600px;
- 	}
+	height: 530px;
+ }
 #contact .container-width > *{
-	width: 480px;
+	/*width: 480px;*/
 	/*height: 450px;*/
 }
 #contact header{
 	flex: 1;
 	background:rgba(0, 35, 92,.6);
-	padding: 6em 3em;
-	
+	padding: 30% 6% 10% 6%;
+
 	
 }
 
-#contact >div{
+#contact .container-width >div{
 	flex: 2;
-	padding: 6em;
+	padding: 30% 1% 10% 1%;
 	background:rgba(0, 35, 92,.4);
+	text-align: center;
 	
 }
 #contact h2{
@@ -4152,9 +4188,17 @@ font-variant-position: normal;
 }
 #phone{
 	font-size: 2.8em;
+	text-shadow: 3px 3px 3px black;
 }
 #email,#address{
-	font-size: 2.8em;
+	font-size: 2.5em;
+	text-shadow: 3px 3px 3px black;
+}
+@media screen and (min-width: 1280px) {
+#contact .container-width >div{
+	padding: 3em;
+}
+
 }
 @media screen and (max-width: 980px) {
 #contact header h2{
@@ -4162,21 +4206,26 @@ font-variant-position: normal;
 }
 }
 @media screen and (max-width: 736px) {
-#contact{
+#contact .container-width{
 	flex-direction: column;
 	text-align: center!important;
-	height: auto;	
+	height: 350px;	
 	/*height: 300px;*/
 }
-#contact >*{
+#contact .container-width>*{
 	flex:1;
 	width: 100%;
 	text-align: center;
 	/*padding: 10em;*/
 }
-#contact >div{
+#contact .container-width >div{
 	
-	padding: 1.6em;
+	padding: 5%;
+
+}
+#contact .container-width >header{
+	
+	padding: 5%;
 
 }
 #phone{
@@ -4185,13 +4234,16 @@ font-variant-position: normal;
 #email{
 	font-size: 1.9em;
 }
+#contact .container-width{
+	padding: 0;
+}
 
 }
 
  
 @media screen and (max-width: 480px) {
 	#contact header{
-		padding: 4em 2em;
+		/*padding: 4em 2em;*/
 	}
 	#contact h2{
 	font-size: 2em !important;
@@ -4265,7 +4317,7 @@ margin-top: 80px;
 @media screen and (min-width: 1280px) {
 
 			#app img{
-				margin-top: 10%;
+				margin-top: 7%;
 			}
 
 		}
