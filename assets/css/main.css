@@ -3011,7 +3011,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+		align-items: stretch;
 		margin: 0 0 0 0;
 	}
 
@@ -3423,11 +3423,11 @@ iframe{
 	#nav .container-width{
 		position: relative;
 	}
-		#nav .flag-cu{
+		.flag-cu{
 			margin-right: .2em;
 
 		}
-		#nav .flag-us{
+		.flag-us{
 			margin-left: .2em;
 		}
 		
@@ -4157,7 +4157,7 @@ font-variant-position: normal;
 }
 /***** contact*****/
 #contact{
-	background: #2257BE;
+	background:rgb(0, 35, 92);
 	/*display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -4166,14 +4166,14 @@ font-variant-position: normal;
 	
  	}
  #contact .container-width{
- 	background: url('../../images/9_editada.jpg') no-repeat;
+ 	background: url('../../images/esta.jpeg') no-repeat;
 	background-size: 100% 100%;
  	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
-	height: 530px;
+	height: 370px;
  }
 #contact .container-width > *{
 	/*width: 480px;*/
@@ -4181,7 +4181,7 @@ font-variant-position: normal;
 }
 #contact header{
 	flex: 1;
-	background:rgba(0, 35, 92,.6);
+	background:rgba(0, 35, 92,.8);
 	padding: 30% 6% 10% 6%;
 
 	
@@ -4190,8 +4190,8 @@ font-variant-position: normal;
 #contact .container-width >div{
 	flex: 2;
 	padding: 30% 1% 10% 1%;
-	background:rgba(0, 35, 92,.4);
-	text-align: center;
+	background:rgba(0, 35, 92,.6);
+	text-align: left;
 	
 }
 #contact h2{
@@ -4200,6 +4200,7 @@ font-variant-position: normal;
 #phone{
 	font-size: 2.8em;
 	text-shadow: 3px 3px 3px black;
+	margin-bottom: 0;
 }
 #email,#address{
 	font-size: 2.5em;
@@ -4223,7 +4224,7 @@ font-variant-position: normal;
 #contact .container-width{
 	flex-direction: column;
 	text-align: center!important;
-	height: 350px;	
+	height: 280px;	
 	/*height: 300px;*/
 }
 #contact .container-width>*{
@@ -4235,6 +4236,7 @@ font-variant-position: normal;
 #contact .container-width >div{
 	
 	padding: 5%;
+	text-align: center;
 
 }
 #contact .container-width >header{
