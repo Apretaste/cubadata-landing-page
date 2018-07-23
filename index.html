@@ -434,20 +434,26 @@ $(function () {
 		e.preventDefault();
 		$.magnificPopup.close();
 	});
+
+	$('.js-switch').change(function(){
+		location.href ="http://www.cubadata.com/es";
+	});
 });</script>
 	<script type="text/javascript">
 		
 		/*var elem = document.querySelector('.js-switch');
 	var switchery = new Switchery(elem, { size: 'small',secondaryColor: '#2186DD'});*/
 	var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
-
+	console.log(elems);
 	elems.forEach(function(html) {
  	 var switchery = new Switchery(html,{ size: 'small',secondaryColor: '#2186DD'});
 	});	
 
-elem.onchange = function() {
- alert(elem.checked)//location.href ="http://www.google.com";
-};
+/*eleme.onchange = function() {
+	alert("hola mundo");
+ location.href ="http://www.cubadata.com/es";
+};*/
+
 	</script>
 
 	</body>
