@@ -1,5 +1,5 @@
-RewriteEngine On
-ExpiresActive On
+#RewriteEngine On
+#ExpiresActive On
 
 #
 # Remove www from the URLs
