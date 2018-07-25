@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2823,7 +2818,10 @@ input, select, textarea {
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
-
+		.features img,.core img{
+			width: 192px;
+			height: 222px;
+		}
 		@media screen and (max-width: 980px) {
 
 			.features li {
@@ -2870,6 +2868,7 @@ input, select, textarea {
 			}
 			.features img,.core img{
 			width: 100%;
+			height: auto;
 		}
 		}
 
