@@ -1,11 +1,11 @@
-#RewriteEngine On
+RewriteEngine On
 ExpiresActive On
 
 #
-# Remove www from the URLs
+# Redirect to www.cubadata.com
 #
-#RewriteCond %{HTTP_HOST} ^cubadata.com [NC]
-#RewriteRule ^(.*)$ http://www.cubadata.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^cubadata.com [NC]
+RewriteRule ^(.*)$ http://www.cubadata.com/$1 [L,R=301]
 
 #
 # set cache options
