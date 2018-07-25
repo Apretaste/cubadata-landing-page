@@ -1,7 +1,5 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
-@import url(switchery.min.css);
-@import url(flags.min.css);
 
 /*
 	Stellar by HTML5 UP
@@ -2825,7 +2823,10 @@ input, select, textarea {
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
-
+		.features img{
+			width: 192px;
+			height: 222px;
+		}
 		@media screen and (max-width: 980px) {
 
 			.features li {
@@ -2850,21 +2851,7 @@ input, select, textarea {
 				width: calc(50% - 2em);
 			}
 
-			/*.features {
-				width: 100%;
-				margin: 0 0 2em 0;
-			}
-
-				.features li {
-					width: 100%;
-					margin-left: 0;
-					margin-top: 2em;
-				}
-
-					.features li:nth-child(2){
-						margin-top: 2em;
-					}*/
-
+		
 		}
 		@media screen and (max-width: 480px){
 			.features li,.core li {
@@ -2872,6 +2859,7 @@ input, select, textarea {
 			}
 			.features img,.core img{
 			width: 100%;
+			height: auto;
 		}
 		}
 
