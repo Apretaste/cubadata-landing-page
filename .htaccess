@@ -1,9 +1,13 @@
 #RewriteEngine On
 #ExpiresActive On
 
-#RewriteCond %{HTTP_HOST} ^cubadata.com [NC]
-#RewriteRule ^(.*)$ http://www.cubadata.com/$1 [L,R=301]
+#
+# Remove www from the URLs
+#
+RewriteCond %{HTTP_HOST} ^cubadata.com [NC]
+RewriteRule ^(.*)$ http://www.cubadata.com/$1 [L,R=301]
 
+#
 # set cache options
 #
 #ExpiresDefault "access plus 1 seconds"
