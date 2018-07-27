@@ -18,3 +18,11 @@ ExpiresByType text/css "access plus 604800 seconds"
 ExpiresByType text/javascript "access plus 604800 seconds"
 ExpiresByType application/javascript "access plus 604800 seconds"
 ExpiresByType text/html "access plus 2592000 seconds"
+
+#
+#authentication
+#
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
