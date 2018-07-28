@@ -2803,7 +2803,7 @@ input, select, textarea {
 			width: calc(40% - 2em);
 			margin-left: 1em;
 			margin-right: .3em;
-			margin-top: 3em;
+			/*margin-top: 3em;*/
 			padding: 0;
 		}
 		.features li h3{
