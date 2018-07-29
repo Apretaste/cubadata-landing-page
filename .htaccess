@@ -22,7 +22,7 @@ ExpiresByType text/html "access plus 2592000 seconds"
 #
 #authentication
 #
-AuthType Basic
-AuthName "Restricted Content"
-AuthUserFile /etc/apache2/.htpasswd
-Require valid-user
+#AuthType Basic
+#AuthName "Restricted Content"
+#AuthUserFile /etc/apache2/.htpasswd
+#Require valid-user
