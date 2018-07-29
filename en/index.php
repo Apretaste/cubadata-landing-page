@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" href="/images/cubadata_icon">
-		<?php require $_SERVER['DOCUMENT_ROOT'] . "google-analytics.inc"; ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
 	</head>
 	<body>
 		<header id="header" class="alt">
