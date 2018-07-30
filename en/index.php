@@ -93,7 +93,7 @@
 									</li>
 									<li>
 										<p>CIVIL SOCIETY</p>
-										<p>Understand how your followers are composed, they bigger concerns and most pressing issues.</p>
+										<p>Understand how your followers are composed, their most pressing issues and biggest concerns.</p>
 									</li>
 									<li>
 										<p>RESEARCH</p>
@@ -114,17 +114,17 @@
 							<li class="style2">
 								<img src="/images/whyus-trust.png" alt="whyus-trust" width="80" height="80">
 								<p>DATA YOU CAN TRUST YOUR LIFE</p>
-								<p>We contact anonymously thousands of subscriptors in the island. That is how we get you unbiased, honest and direct answer to basically any questions you may have.</p>
+								<p>We contact anonymously thousands of subscriptors in the island. That is how we get you unbiased, honest and direct answers to basically any questions you may have.</p>
 							</li>
 							<li class="style3">
 								<img src="/images/whyus-perfection.png" alt="whyus-perfection" width="80" height="80">
 								<p>FOCUSED ON PERFECTION</p>
-								<p>Our subscriptors are spread over the country, and our samples are segmented by age, gender, education and income, to ensure maximum accuracy on the results.</p>
+								<p>Our subscriptors are spread over the country, and our samples are segmented by age, gender, education, location and more, to ensure maximum accuracy on the results.</p>
 							</li>
 							<li class="style4">
 								<img src="/images/whyus-wheel.png" alt="whyus-wheel" width="80" height="80">
 								<p>ALWAYS BEHIND THE WHEEL</p>
-								<p>A experienced, one-to-one agent will help you coming up with questions, translations and analyze the results based on our knowledge of the Cuban culture and society.</p>
+								<p>We will help you coming up with questions, translations, and our experts will analyze the results based on their knowledge of the Cuban culture and society.</p>
 							</li>
 						</ul>
 					</div>
@@ -133,7 +133,7 @@
 				<section id="report" class="main special">
 					<header class="major">
 						<h2 class="font_2">CUBA: EXPLORING THE CITIZEN'S OPINION UNDER THE GOVERNMENT OF DÍAZ-CANEL</h2>
-						<p>Take a look at our reports and find out what Cubans really think.</p>
+						<p>Take a look at our latest survey, and find out what Cubans really think.</p>
 					</header>
 					<footer class="major">
 						<ul class="actions special">
@@ -213,7 +213,7 @@
 							<li>
 								<img src="/images/team-salvi.png" alt="SALVI PASCUAL" width="192" height="222">
 								<h3>SALVI PASCUAL</h3>
-								<p>Programmer, Entrepreneur, College Professor, and founder of <a target="_blank" href="https://apretaste.com">Apretaste!</a></p>							
+								<p>Coder, Entrepreneur, and University Professor. Founder of <a target="_blank" href="https://apretaste.com">Apretaste!</a></p>							
 							</li>
 						</ul>
 					</div>
@@ -247,7 +247,7 @@
 
 			<!-- Footer -->
 			<footer id="footer">
-				<p class="copyright">Copyright © 2018 by Cuba Data LLC. All rights reserved</p>
+				<p class="copyright">Copyright © 2018 by Cuba Data LLC. All Rights Reserved</p>
 			</footer>
 		</div>
 
