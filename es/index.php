@@ -87,15 +87,15 @@
 								<ul id="work">
 									<li>
 										<p>MEDIOS INFORMATIVOS</p>
-										<p>Conviértete en una autoridad. Sondea los estados de opinión de los Cubanos en la isla.</p>
+										<p>Conviértete en una autoridad. Sondea el estado de opinión de los cubanos en la Isla.</p>
 									</li>
 									<li>
 										<p>SECTOR PRIVADO</p>
-										<p>Optimiza tus servicios. Averigua qué piensa los potenciales consumidores de tus productos.</p>
+										<p>Optimiza tus servicios. Averigua qué piensan los potenciales consumidores de tus productos.</p>
 									</li>
 									<li>
 										<p>SOCIEDAD CIVIL</p>
-										<p>Profundiza en quienes son y que piensan las fuerzas más vivas de la sociedad Cubana.</p>
+										<p>Profundiza en quiénes son y qué piensan las fuerzas más vivas de la sociedad cubana.</p>
 									</li>
 									<li>
 										<p>INVESTIGACIÓN</p>
@@ -116,7 +116,7 @@
 							<li class="style2">
 								<img src="/images/whyus-trust.png" alt="whyus-trust" width="80" height="80">
 								<p>DATOS EN LOS QUE PUEDES CONFIAR</p>
-								<p>Contactamos con miles de personas en la isla de manera anónima, individual y verificable. Así obtenemos respuestas para cualquier pregunta que puedas tener.</p>
+								<p>Contactamos con miles de personas en la Isla de manera anónima, individual y verificable. Así obtenemos respuestas para cualquier pregunta que puedas tener.</p>
 							</li>
 							<li class="style3">
 								<img src="/images/whyus-perfection.png" alt="whyus-perfection" width="80" height="80">
@@ -126,7 +126,7 @@
 							<li class="style5">
 								<img src="/images/whyus-wheel.png" alt="whyus-wheel" width="80" height="80">
 								<p>SIEMPRE DETRÁS DEL VOLANTE</p>
-								<p>Nuestro equipo de expertos le ayudarán a diseñar cuestionarios y analizar científicamente los resultados en base a nuestro conocimiento de la sociedad Cubana.</p>
+								<p>Nuestro equipo de expertos le ayudará a diseñar cuestionarios y a analizar científicamente los resultados en base a nuestro conocimiento de la sociedad cubana.</p>
 							</li>
 						</ul>
 					</div>
@@ -135,7 +135,7 @@
 				<section id="report" class="main special">
 					<header class="major">
 						<h2 class="font_2">CUBA: EXPLORANDO LA OPINIÓN CIUDADANA BAJO EL GOBIERNO DE DÍAZ-CANEL</h2>
-						<p>Accede a nuestro último reporte, e infórmate sobre qué piensan realmente los cubanos</p>
+						<p>Accede a nuestra última encuesta, e infórmate sobre qué piensan realmente los cubanos</p>
 					</header>
 					<footer class="major">
 						<ul class="actions special">
