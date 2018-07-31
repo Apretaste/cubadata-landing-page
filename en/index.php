@@ -11,12 +11,13 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" href="/images/cubadata_icon">
+		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
 	</head>
 	<body>
 		<header id="header" class="alt">
 			<div class="container-width">
 				<span id="idiom">
-					<img src="/images/blank.gif" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" name="name2" checked /><img src="/images/blank.gif" class="flag flag-us" alt="english" />
+					<img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" name="name2" checked /><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" />
 				</span>
 				<div id="text">
 					<h2 class="font_2"><span class="big">PLEASE, ASK<br><span class="bold">ANYTHING</span><br> ABOUT <span class="bold">CUBA</span></span></h2>
@@ -38,7 +39,7 @@
 						<li><a href="#report">OUR REPORT</a></li>
 						<li><a href="#experts">TEAM</a></li>
 						<li><a href="#contact">CONTACT</a></li>
-						<li><img src="/images/blank.gif" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1" checked /><img src="/images/blank.gif" class="flag flag-us" alt="english" /></li>
+						<li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1" checked /><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" /></li>
 					</ul>
 				</div>
 			</nav>
@@ -48,7 +49,7 @@
 				<section id="report" class="main special">
 					<header class="major">
 						<h2 class="font_2">CUBA: EXPLORING THE CITIZEN'S OPINION UNDER THE GOVERNMENT OF DÍAZ-CANEL</h2>
-						<p>Take a look at our reports and find out what Cubans really think.</p>
+						<p>Take a look at our latest survey, and find out what Cubans really think.</p>
 					</header>
 					<footer class="major">
 						<ul class="actions special">
@@ -104,7 +105,7 @@
 									</li>
 									<li>
 										<p>CIVIL SOCIETY</p>
-										<p>Understand how your followers are composed, they bigger concerns and most pressing issues.</p>
+										<p>Understand how your followers are composed, their most pressing issues and biggest concerns.</p>
 									</li>
 									<li>
 										<p>RESEARCH</p>
@@ -125,23 +126,22 @@
 							<li class="style2">
 								<img src="/images/whyus-trust.png" alt="whyus-trust" width="80" height="80">
 								<p>DATA YOU CAN TRUST YOUR LIFE</p>
-								<p>We contact anonymously thousands of subscriptors in the island. That is how we get you unbiased, honest and direct answer to basically any questions you may have.</p>
+								<p>We contact anonymously thousands of subscriptors in the island. That is how we get you unbiased, honest and direct answers to basically any questions you may have.</p>
 							</li>
 							<li class="style3">
 								<img src="/images/whyus-perfection.png" alt="whyus-perfection" width="80" height="80">
 								<p>FOCUSED ON PERFECTION</p>
-								<p>Our subscriptors are spread over the country, and our samples are segmented by age, gender, education and income, to ensure maximum accuracy on the results.</p>
+								<p>Our subscriptors are spread over the country, and our samples are segmented by age, gender, education, location and more, to ensure maximum accuracy on the results.</p>
 							</li>
 							<li class="style4">
 								<img src="/images/whyus-wheel.png" alt="whyus-wheel" width="80" height="80">
 								<p>ALWAYS BEHIND THE WHEEL</p>
-								<p>A experienced, one-to-one agent will help you coming up with questions, translations and analyze the results based on our knowledge of the Cuban culture and society.</p>
+								<p>We will help you coming up with questions, translations, and our experts will analyze the results based on their knowledge of the Cuban culture and society.</p>
 							</li>
 						</ul>
 					</div>
 				</section>
 					
-				
 
 				<!-- First Section -->
 				<section id="experts" class="main special">
@@ -152,7 +152,7 @@
 
 						<ul class="features">
 							<li>
-								<img src="/images/ex1.jpeg" alt="ARMANDO CHAGUACEDA">
+								<img src="/images/ex1.jpeg" alt="ARMANDO CHAGUACEDA" width="192" height="222">
 								<h3>ARMANDO CHAGUACEDA</h3>
 								<a href="#test-modal" class="button primary popup-modal">Read Bio</a></p>
 								<div id="test-modal" class="mfp-hide white-popup-block">
@@ -164,7 +164,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex2.jpeg">
+								<img src="/images/ex2.jpeg" width="192" height="222" alt="Juan Trak Vazquez">
 								<h3>JUAN M TRAK VÁSQUEZ</h3>
 								<a href="#test-modal1" class="button primary popup-modal">Read Bio</a>
 								<div id="test-modal1" class="mfp-hide white-popup-block">
@@ -176,7 +176,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex3.jpeg" alt="ELAINE ACOSTA GONZALEZ">
+								<img src="/images/ex3.jpeg" alt="ELAINE ACOSTA GONZALEZ" width="192" height="222">
 								<h3>ELAINE ACOSTA GONZALEZ</h3>
 								<a href="#test-modal2" class="button primary popup-modal">Read Bio</a></p>
 								<div id="test-modal2" class="mfp-hide white-popup-block">
@@ -188,7 +188,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex4.png" alt="RODRIGO SALAZAR-ELENA">
+								<img src="/images/ex4.png" alt="RODRIGO SALAZAR-ELENA" width="192" height="222">
 								<h3>RODRIGO SALAZAR-ELENA</h3>
 								<a href="#test-modal3" class="button primary popup-modal">Read Bio</a></p>
 								<div id="test-modal3" class="mfp-hide white-popup-block">
@@ -206,14 +206,14 @@
 						</header>
 						<ul class="core">
 							<li>
-								<img src="/images/pablo.jpeg" alt="PABLO DIAZ">
+								<img src="/images/pablo.jpeg" alt="PABLO DIAZ" width="192" height="222">
 								<h3>PABLO DIAZ</h3>
 								<p>Co-founder of CubaData. Journalist. Director of <a target="_blank" href="http://www.diariodecuba.com">Diario de Cuba</a>.</p>
 							</li>
 							<li>
-								<img src="/images/team-salvi.png" alt="SALVI PASCUAL">
+								<img src="/images/team-salvi.png" alt="SALVI PASCUAL" width="192" height="222">
 								<h3>SALVI PASCUAL</h3>
-								<p>Programmer, Entrepreneur, College Professor, and founder of <a target="_blank" href="https://apretaste.com">Apretaste!</a></p>							
+								<p>Coder, Entrepreneur, and University Professor. Founder of <a target="_blank" href="https://apretaste.com">Apretaste!</a></p>							
 							</li>
 						</ul>
 					</div>
@@ -226,7 +226,7 @@
 					</header>
 					<footer class="major">
 						<ul class="actions special">
-							<li><a href="/files/cubaData.apk" class="button primary"><span><img src="/images/android.png"></span>Download</a></li>
+							<li><a href="/files/cubaData.apk" class="button primary"><span><img src="/images/android.png" width="30" height="30"></span>Download</a></li>
 						</ul>
 					</footer>
 				</section>
@@ -247,7 +247,7 @@
 
 			<!-- Footer -->
 			<footer id="footer">
-				<p class="copyright">Copyright © 2018 by Cuba Data LLC. All rights reserved</p>
+				<p class="copyright">Copyright © 2018 by Cuba Data LLC. All Rights Reserved</p>
 			</footer>
 		</div>
 

@@ -11,18 +11,18 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" href="/images/cubadata_icon">
+		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
 	</head>
 	<body>
 		<header id="header" class="alt">
 			<div class="container-width">
 				<span id="idiom">
-					<img src="/images/blank.gif" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" name="name2" /><img src="/images/blank.gif" class="flag flag-us" alt="english" />
+					<img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" name="name2" /><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" />
 				</span>
 				<div id="text">
 					<h2 class="font_2"><span class="big">PREGÚNTANOS <br><span class="bold">CUALQUIER COSA</span><br> SOBRE <span class="bold">CUBA</span></span></h2>
 					<p>Nos especializamos en estudios de mercado. Cuando necesites datos, ya no estás solo</p>
 				</div>
-			
 				<div id="but"><a href="#report" class="button default">Ver resultados de la encuesta</a></div>
 			</div>
 		</header>
@@ -40,7 +40,7 @@
 						<li><a href="#report">ENCUESTAS</a></li>
 						<li><a href="#experts">EQUIPO</a></li>
 						<li><a href="#contact">CONTACTO</a></li>
-						<li><img src="/images/blank.gif" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1"/><img src="/images/blank.gif" class="flag flag-us" alt="english" /></li>
+						<li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1"/><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" /></li>
 					</ul>
 				</div>
 			</nav>
@@ -50,7 +50,7 @@
 				<section id="report" class="main special">
 					<header class="major">
 						<h2 class="font_2">CUBA: EXPLORANDO LA OPINIÓN CIUDADANA BAJO EL GOBIERNO DE DÍAZ-CANEL</h2>
-						<p>Accede a nuestro último reporte, e infórmate sobre qué piensan realmente los cubanos</p>
+						<p>Accede a nuestra última encuesta, e infórmate sobre qué piensan realmente los cubanos</p>
 					</header>
 					<footer class="major">
 						<ul class="actions special">
@@ -99,15 +99,15 @@
 								<ul id="work">
 									<li>
 										<p>MEDIOS INFORMATIVOS</p>
-										<p>Conviértete en una autoridad. Sondea los estados de opinión de los Cubanos en la isla.</p>
+										<p>Conviértete en una autoridad. Sondea el estado de opinión de los cubanos en la Isla.</p>
 									</li>
 									<li>
 										<p>SECTOR PRIVADO</p>
-										<p>Optimiza tus servicios. Averigua qué piensa los potenciales consumidores de tus productos.</p>
+										<p>Optimiza tus servicios. Averigua qué piensan los potenciales consumidores de tus productos.</p>
 									</li>
 									<li>
 										<p>SOCIEDAD CIVIL</p>
-										<p>Profundiza en quienes son y que piensan las fuerzas más vivas de la sociedad Cubana.</p>
+										<p>Profundiza en quiénes son y qué piensan las fuerzas más vivas de la sociedad cubana.</p>
 									</li>
 									<li>
 										<p>INVESTIGACIÓN</p>
@@ -126,25 +126,23 @@
 						</header>
 						<ul class="statistics">
 							<li class="style2">
-								<img src="/images/whyus-trust.png">
+								<img src="/images/whyus-trust.png" alt="whyus-trust" width="80" height="80">
 								<p>DATOS EN LOS QUE PUEDES CONFIAR</p>
-								<p>Contactamos con miles de personas en la isla de manera anónima, individual y verificable. Así obtenemos respuestas para cualquier pregunta que puedas tener.</p>
+								<p>Contactamos con miles de personas en la Isla de manera anónima, individual y verificable. Así obtenemos respuestas para cualquier pregunta que puedas tener.</p>
 							</li>
 							<li class="style3">
-								<img src="/images/whyus-perfection.png">
+								<img src="/images/whyus-perfection.png" alt="whyus-perfection" width="80" height="80">
 								<p>ENFOCADOS EN LA PERFECCIÓN</p>
 								<p>Nuestro alcance se extiende a todo el país, con muestras disgregadas por edad, género, nivel educativo, lugar de residencia, etc. Garantizamos la máxima precisión posible en los resultados.</p>
 							</li>
 							<li class="style5">
-								<img src="/images/whyus-wheel.png">
+								<img src="/images/whyus-wheel.png" alt="whyus-wheel" width="80" height="80">
 								<p>SIEMPRE DETRÁS DEL VOLANTE</p>
-								<p>Nuestro equipo de expertos le ayudarán a diseñar cuestionarios y analizar científicamente los resultados en base a nuestro conocimiento de la sociedad Cubana.</p>
+								<p>Nuestro equipo de expertos le ayudará a diseñar cuestionarios y a analizar científicamente los resultados en base a nuestro conocimiento de la sociedad cubana.</p>
 							</li>
 						</ul>
 					</div>
 				</section>
-
-				
 
 				<!-- First Section -->
 				<section id="experts" class="main special">
@@ -154,7 +152,7 @@
 						</header>
 						<ul class="features">
 							<li>
-								<img src="/images/ex1.jpeg">
+								<img src="/images/ex1.jpeg" width="192" height="222" alt="Armando Chaguaceda">
 								<h3>ARMANDO CHAGUACEDA</h3>
 								<a href="#test-modal" class="button primary popup-modal">Ver Bio</a></p>
 								<div id="test-modal" class="mfp-hide white-popup-block">
@@ -167,7 +165,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex2.jpeg">
+								<img src="/images/ex2.jpeg" width="192" height="222" alt="Juan Manuel Trak">
 								<h3>JUAN M TRAK VÁSQUEZ</h3>
 								<a href="#test-modal1" class="button primary popup-modal">Ver Bio</a>
 								<div id="test-modal1" class="mfp-hide white-popup-block">
@@ -179,7 +177,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex3.jpeg">
+								<img src="/images/ex3.jpeg" width="192" height="222" alt="Elaine Acosta Gonzales">
 								<h3>ELAINE ACOSTA GONZALEZ</h3>
 								<a href="#test-modal2" class="button primary popup-modal">Ver Bio</a></p>
 								<div id="test-modal2" class="mfp-hide white-popup-block">
@@ -191,7 +189,7 @@
 								</div>
 							</li>
 							<li>
-								<img src="/images/ex4.png">
+								<img src="/images/ex4.png" width="192" height="222" alt="Rodrigo Salazar-Elena">
 								<h3>RODRIGO SALAZAR-ELENA</h3>
 								<a href="#test-modal3" class="button primary popup-modal">Ver Bio</a></p>
 								<div id="test-modal3" class="mfp-hide white-popup-block">
@@ -209,12 +207,12 @@
 						</header>
 						<ul class="core">
 							<li>
-								<img src="/images/pablo.jpeg">
+								<img src="/images/pablo.jpeg" width="192" height="222" alt="Pablo Diaz">
 								<h3>PABLO DIAZ</h3>
 								<p>Cofundador de CubaData. Periodista. Director del <a target="_blank" href="http://www.diariodecuba.com">Diario de Cuba</a>.</p>
 							</li>
 							<li>
-								<img src="/images/team-salvi.png">
+								<img src="/images/team-salvi.png" width="192" height="222" alt="Salvi Pascual">
 								<h3>SALVI PASCUAL</h3>
 								<p>Programador, emprendedor, profesor universitario y fundador de <a target="_blank" href="https://apretaste.com">Apretaste!</a></p>
 							</li>
@@ -229,7 +227,7 @@
 					</header>
 					<footer class="major">
 						<ul class="actions special">
-							<li><a href="/files/cubaData.apk" class="button primary"><span><img src="/images/android.png"></span>Descargar</a></li>
+							<li><a href="/files/cubaData.apk" class="button primary"><span><img src="/images/android.png" width="30" height="30"></span>Descargar</a></li>
 						</ul>
 					</footer>
 				</section>
