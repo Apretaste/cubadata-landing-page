@@ -137,7 +137,7 @@
 					});*/
 
 			// Links.
-				var header_a = $header.find('a');
+				/*var header_a = $header.find('a');
 
 				header_a
 					.scrolly({
@@ -203,7 +203,7 @@
 								}
 							});
 
-					});
+					});*/
 
 		}
 /*$("#show").click(function(){

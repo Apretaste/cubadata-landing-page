@@ -3225,10 +3225,11 @@ input, select, textarea {
 			}
 
 			#header a{
-				background:rgba( 127, 179, 213,.4);
+				background:rgba(121, 224, 241,.5);
 			}
 			#header a:hover{
-				background: rgba(121, 224, 241,.5);
+				background: #9acff2;
+				/*background: rgba(121, 224, 241,.5);*/
 			}
 
 			#header.alt .logo {
@@ -3904,7 +3905,7 @@ iframe{
 
 		}
 		#main > .main:first-child{
-			padding: 0;
+			/*padding: 0;*/
 		}
 
 /* Footer */
