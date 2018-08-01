@@ -4361,6 +4361,29 @@ margin-top: 80px;
 	color: #00305B !important;
 }
 
+/***** NEWS *******/
+#news{
+	padding: 3em 3em 3em 2em!important;
+}
+#news .img-cont{
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+#news a{
+	text-align: center;
+	border:none;
+}
+#news a:hover img{
+	box-shadow: 5px 5px 5px rgb(210,210,210);
+}
+#news img{
+	border: 1px solid rgb(210,210,210);
+	padding: 5px;
+}
+
+/*end NEWS */
 
 
 

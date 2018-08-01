@@ -39,6 +39,7 @@
 						<li><a href="#second">NOSOTROS</a></li>
 						<li><a href="#report">ENCUESTAS</a></li>
 						<li><a href="#experts">EQUIPO</a></li>
+						<li><a href="#news">NOTICIAS</a></li>
 						<li><a href="#contact">CONTACTO</a></li>
 						<li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1"/><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" /></li>
 					</ul>
@@ -230,6 +231,47 @@
 							<li><a href="/files/cubaData.apk" class="button primary"><span><img src="/images/android.png" width="30" height="30"></span>Descargar</a></li>
 						</ul>
 					</footer>
+				</section>
+				<section id="news" class="main special">
+					<div class="container-width">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/telemundo.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/oreally.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/diariodecuba.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/elmundo.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/marti.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="#"><img src="/images/telemundo.png" class=" img-circle" width="190" height="85"> </a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
 				</section>
 
 				<!-- Get Started -->
