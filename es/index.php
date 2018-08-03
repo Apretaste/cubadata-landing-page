@@ -238,40 +238,68 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/telemundo.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="http://www.diariodecuba.com/cuba/1532904085_40973.html" target="_blank"><img src="/images/diariodecuba.png" class=" img-rounded" width="190" height="85"> </a>
+									</div>
+								</div>
+							
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="https://www.cubanet.org/noticias/encuesta-cubanos-cuba-propiedad-privada-libertades-individuales/" target="_blank"><img src="/images/cubanet.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/oreally.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="https://www.martinoticias.com/a/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-libertad-politica/191176.html" target="_blank"><img src="/images/marti.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/diariodecuba.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="https://www.diariolasamericas.com/america-latina/los-cubanos-quieren-autonomia-sus-negocios-pluralismo-politico-y-elegir-presidente-segun-encuesta-n4158965" target="_blank"><img src="/images/diariolasamericas.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/elmundo.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="https://www.infobae.com/america/america-latina/2018/07/31/el-61-por-ciento-de-los-cubanos-quiere-cambiar-la-constitucion-y-establecer-elecciones-directas-para-el-cargo-de-presidente/" target="_blank"><img src="/images/infobae.jpg" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/marti.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="http://www.cubaenmiami.com/encuesta-en-cuba-gran-mayoria-de-los-cubanos-cree-que-los-servicios-de-educacion-y-salud-no-son-buenos/ " target="_blank"><img src="/images/cubaenmiami.jpg" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="#"><img src="/images/telemundo.png" class=" img-circle" width="190" height="85"> </a>
+										<a href="http://cubanews.cubaverdad.net/2018/07/encuesta-los-cubanos-quieren-mas-autonomia-para-sus-negocios-pluralismo-politico-y-elegir-presidente/" target="_blank"><img src="/images/cubanews.jpg" class=" img-rounded" width="190" height="85"></a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="https://www.facebook.com/Jotaviz/photos/a.515743575228084.1073741829.474535162682259/1298852536917180/?type=3" target="_blank"><img src="/images/jotaviz.jpg" class=" img-rounded" width="190" height="85"></a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="https://www.youtube.com/watch?v=XO6-EhFEw2U" target="_blank"><img src="/images/tvlibertad.jpg" class=" img-rounded" width="190" height="85"></a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="http://blogsdecuba.impela.net/2018/07/encuesta-cubanos-quieren-autonomia-para-sus-negocios-y-pluralismo-politico/" target="_blank"><img src="/images/blogsdecuba.jpg" class=" img-rounded" width="190" height="85"></a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="http://www.cubademocraciayvida.org/web/article.asp?artID=39258 " target="_blank"><img src="/images/cubademocratica.jpg" class=" img-rounded" width="190" height="85"></a>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<div class="img-cont">
+										<a href="https://www.cubacomunica.com/noticias/2018/07/30/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-y-libertad-politica/" target="_blank"><img src="/images/cubacomunica.jpg" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 							</div>
 						</div>
-
-
 					</div>
-
 				</section>
 
 				<!-- Get Started -->
