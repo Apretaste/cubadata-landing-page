@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/switchery.min.css">
 		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href="/images/cubadata_icon">
+		<link rel="shortcut icon" href="/images/cubadata_icon.png">
 		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
 	</head>
 	<body>
