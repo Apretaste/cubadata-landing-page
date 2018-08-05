@@ -39,7 +39,7 @@
 						<li><a href="#second">NOSOTROS</a></li>
 						<li><a href="#report">ENCUESTAS</a></li>
 						<li><a href="#experts">EQUIPO</a></li>
-						<li><a href="#news">NOTICIAS</a></li>
+						<li><a href="#news">PRENSA</a></li>
 						<li><a href="#contact">CONTACTO</a></li>
 						<li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba" /><input type="checkbox" class="js-switch" id="idiom-main" name="idiom1"/><img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english" /></li>
 					</ul>
@@ -56,11 +56,11 @@
 					<footer class="major">
 						<ul class="actions special">
 							<li><a href="/files/resultados.pdf" class="button primary" target="_blank">Ver Resultados</a></li>
-							<li><a href="/files/informe.pdf" class="button primary" target="_blank">Ver Análisis</a></li>
+							<li><a href="/files/informe_es.pdf" class="button primary" target="_blank">Ver Análisis</a></li>
 						</ul>
 					</footer>
 				</section>
-<!--			
+<!--
 				<section id="slider">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -160,7 +160,7 @@
 									<div class="data-modal">
 										<h1>ARMANDO CHAGUACEDA</h1>
 										<p>Profesor e Investigador de la Universidad de Guanajuato. Licenciatura en Educación (2000) e Historia (2006), Maestría en Ciencias Políticas (2004) y Doctorado en Historia y Estudios Regionales (2012). Especializado en el estudio de la relación entre sociedad civil, democratización y autoritarismo en América Latina y Rusia. Coautor y coordinador de varios libros, así como autor de docenas de artículos académicos y de opinión sobre los temas mencionados anteriormente. Ha publicado en Estados Unidos, Europa y América Latina, donde también realizó varias conferencias e investigaciones.</p>
-										
+
 										<p><a class="popup-modal-dismiss button default " href="#">Cerrar</a></p>
 									</div>
 								</div>
@@ -238,63 +238,37 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="http://www.diariodecuba.com/cuba/1532904085_40973.html" target="_blank"><img src="/images/diariodecuba.png" class=" img-rounded" width="190" height="85"> </a>
-									</div>
-								</div>
-							
-								<div class="col-xs-6 col-sm-4 col-md-3">
-									<div class="img-cont">
-										<a href="https://www.cubanet.org/noticias/encuesta-cubanos-cuba-propiedad-privada-libertades-individuales/" target="_blank"><img src="/images/cubanet.png" class=" img-rounded" width="190" height="85"> </a>
+										<a href="http://www.diariodecuba.com/cuba/1532904085_40973.html" target="_blank"><img src="/images/press/diariodecuba.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="https://www.martinoticias.com/a/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-libertad-politica/191176.html" target="_blank"><img src="/images/marti.png" class=" img-rounded" width="190" height="85"> </a>
+										<a href="https://www.cubanet.org/noticias/encuesta-cubanos-cuba-propiedad-privada-libertades-individuales/" target="_blank"><img src="/images/press/cubanet.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="https://www.diariolasamericas.com/america-latina/los-cubanos-quieren-autonomia-sus-negocios-pluralismo-politico-y-elegir-presidente-segun-encuesta-n4158965" target="_blank"><img src="/images/diariolasamericas.png" class=" img-rounded" width="190" height="85"> </a>
+										<a href="https://www.martinoticias.com/a/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-libertad-politica/191176.html" target="_blank"><img src="/images/press/marti.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="https://www.infobae.com/america/america-latina/2018/07/31/el-61-por-ciento-de-los-cubanos-quiere-cambiar-la-constitucion-y-establecer-elecciones-directas-para-el-cargo-de-presidente/" target="_blank"><img src="/images/infobae.jpg" class=" img-rounded" width="190" height="85"></a>
+										<a href="https://www.diariolasamericas.com/america-latina/los-cubanos-quieren-autonomia-sus-negocios-pluralismo-politico-y-elegir-presidente-segun-encuesta-n4158965" target="_blank"><img src="/images/press/diariolasamericas.png" class=" img-rounded" width="190" height="85"> </a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="http://www.cubaenmiami.com/encuesta-en-cuba-gran-mayoria-de-los-cubanos-cree-que-los-servicios-de-educacion-y-salud-no-son-buenos/ " target="_blank"><img src="/images/cubaenmiami.jpg" class=" img-rounded" width="190" height="85"></a>
+										<a href="https://www.infobae.com/america/america-latina/2018/07/31/el-61-por-ciento-de-los-cubanos-quiere-cambiar-la-constitucion-y-establecer-elecciones-directas-para-el-cargo-de-presidente/" target="_blank"><img src="/images/press/infobae.png" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="http://cubanews.cubaverdad.net/2018/07/encuesta-los-cubanos-quieren-mas-autonomia-para-sus-negocios-pluralismo-politico-y-elegir-presidente/" target="_blank"><img src="/images/cubanews.jpg" class=" img-rounded" width="190" height="85"></a>
+										<a href="http://www.cubaenmiami.com/encuesta-en-cuba-gran-mayoria-de-los-cubanos-cree-que-los-servicios-de-educacion-y-salud-no-son-buenos/ " target="_blank"><img src="/images/press/cubaenmiami.png" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 								<div class="col-xs-6 col-sm-4 col-md-3">
 									<div class="img-cont">
-										<a href="https://www.facebook.com/Jotaviz/photos/a.515743575228084.1073741829.474535162682259/1298852536917180/?type=3" target="_blank"><img src="/images/jotaviz.jpg" class=" img-rounded" width="190" height="85"></a>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-4 col-md-3">
-									<div class="img-cont">
-										<a href="https://www.youtube.com/watch?v=XO6-EhFEw2U" target="_blank"><img src="/images/tvlibertad.jpg" class=" img-rounded" width="190" height="85"></a>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-4 col-md-3">
-									<div class="img-cont">
-										<a href="http://blogsdecuba.impela.net/2018/07/encuesta-cubanos-quieren-autonomia-para-sus-negocios-y-pluralismo-politico/" target="_blank"><img src="/images/blogsdecuba.jpg" class=" img-rounded" width="190" height="85"></a>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-4 col-md-3">
-									<div class="img-cont">
-										<a href="http://www.cubademocraciayvida.org/web/article.asp?artID=39258 " target="_blank"><img src="/images/cubademocratica.jpg" class=" img-rounded" width="190" height="85"></a>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-4 col-md-3">
-									<div class="img-cont">
-										<a href="https://www.cubacomunica.com/noticias/2018/07/30/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-y-libertad-politica/" target="_blank"><img src="/images/cubacomunica.jpg" class=" img-rounded" width="190" height="85"></a>
+										<a href="https://www.cubacomunica.com/noticias/2018/07/30/sondeo-descontentos-cubanos-quieren-mas-negocios-privados-y-libertad-politica/" target="_blank"><img src="/images/press/cubacomunica.png" class=" img-rounded" width="190" height="85"></a>
 									</div>
 								</div>
 							</div>
@@ -358,9 +332,9 @@
 			var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
 			elems.forEach(function(html) {
 				var switchery = new Switchery(html,{ size: 'small',secondaryColor: '#2186DD'});
-			});	
+			});
 
-		
+
 		</script>
 	</body>
 </html>
