@@ -4384,10 +4384,14 @@ margin-top: 80px;
 }
 @media screen and (max-width: 480px) {
 
-	div[class*="col"] img{
+	#news{
+		padding: 2em 1.2em 2em 1em !important;
+	}
+	#news div[class*="col"] img{
 		width: 100%;
 		height: auto;
 	}
+
 }
 
 
