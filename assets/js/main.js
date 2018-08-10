@@ -47,7 +47,7 @@
 
 			// Links.
 				var $nav_a = $nav.find('a');
-
+				
 				$nav_a
 					.scrolly({
 						speed: 1000,
@@ -117,10 +117,8 @@
 		}
 
 	// Scrolly.
-		$('.scrolly').scrolly({
-			speed: 1000
-		});
-			var $header = $('#header');
+		
+			var $header = $('#header.alt');
 
 		if ($header.length > 0) {
 
@@ -137,9 +135,9 @@
 					});*/
 
 			// Links.
-				/*var header_a = $header.find('a');
+				var $header_a = $header.find('a');
 
-				header_a
+				$header_a
 					.scrolly({
 						speed: 1000,
 						offset: function() { return $nav.height(); }
@@ -153,7 +151,7 @@
 								return;
 
 						// Deactivate all links.
-							header_a
+							$header_a
 								.removeClass('active')
 								.removeClass('active-locked');
 
@@ -203,9 +201,12 @@
 								}
 							});
 
-					});*/
+					});
 
 		}
+		$('.scrolly').scrolly({
+			speed: 1000
+		});
 /*$("#show").click(function(){
 	$("#text").fadeToggle(3000);
 	 $("#graph").fadeToggle(3000);
