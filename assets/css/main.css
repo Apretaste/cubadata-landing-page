@@ -3317,6 +3317,7 @@ input, select, textarea {
 			}
 
 		}
+		
 
 		@media screen and (max-width: 480px) {
 
@@ -3363,6 +3364,24 @@ input, select, textarea {
 			#header h2.font_2{
 				line-height: 40px;
 			}
+		}
+		@media (max-width: 736px) and (orientation:landscape){
+			#header.alt  .container-width{
+				padding-top: 2em;
+			}
+			#header.alt .big{
+				font-size: 30px!important;
+				line-height: 5px!important;
+			}
+			#header h2.font_2{
+				line-height: 30px;
+				margin-top: 0;
+			}
+
+			#header.alt  .container-width>div:first-of-type p{
+				font-size: 1.1em !important;
+			}
+
 		}
 
 		body.is-preload #header.alt .container-width > * {
