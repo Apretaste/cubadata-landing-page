@@ -55,7 +55,31 @@
 					<footer class="major">
 						<ul class="actions special">
 							<li><a href="/files/resultados.pdf" class="button primary" target="_blank">See Results</a></li>
-							<li><a href="/files/informe_en.pdf" class="button primary" target="_blank">See Analysis</a></li>
+              <li><a href="/files/informe_en.pdf" class="button primary" target="_blank">See Analysis</a></li>
+              <li><a href="#other-surveys-modal" class="button default popup-modal" target="_blank">Other surveys</a>
+                  <div id="other-surveys-modal" class="mfp-hide white-popup-block">
+                      <table width="100%">
+                          <thead>
+                          <tr>
+                              <th>Survey</th>
+                              <th>Date</th>
+                              <th></th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td>Opinions, perceptions and assessments of Cubans on the Constitutional Reform proposal</td>
+                              <td width="10%">November 19, 2018</td>
+                              <td width="30%">
+                                  <a href="/files/results_1.en.pdf" class="button primary btn-sm" target="_blank">Results</a>
+                                  <a href="/files/analysis_1.en.xlsx" class="button primary btn-sm" target="_blank">Analysis</a>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <p align="center"><a class="popup-modal-dismiss button default " href="#">Close</a></p>
+                  </div>
+              </li>
 						</ul>
 					</footer>
 				</section>

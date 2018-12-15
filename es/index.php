@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
 		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" href="/images/cubadata_icon.png">
-		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
+		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc";?>
 	</head>
 	<body>
 		<header id="header" class="alt">
@@ -57,6 +57,30 @@
 						<ul class="actions special">
 							<li><a href="/files/resultados.pdf" class="button primary" target="_blank">Ver Resultados</a></li>
 							<li><a href="/files/informe_es.pdf" class="button primary" target="_blank">Ver Análisis</a></li>
+              <li><a href="#other-surveys-modal" class="button button-default popup-modal" target="_blank">Otras encuestas</a>
+                  <div id="other-surveys-modal" class="mfp-hide white-popup-block">
+                      <table width="100%">
+                          <thead>
+                          <tr>
+                              <th>Encuesta</th>
+                              <th>Fecha</th>
+                              <th></th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <td>Opiniones, percepciones y valoraciones de las y los cubanos sobre la propuesta de Reforma Constitucional</td>
+                              <td width="10%">19 de Noviembre del 2018</td>
+                              <td width="30%">
+                                  <a href="/files/results_1.es.pdf" class="button primary btn-sm" target="_blank">Resultados</a>
+                                  <a href="/files/analysis_1.es.xlsx" class="button primary btn-sm" target="_blank">An&aacute;lisis</a>
+                              </td>
+                          </tr>
+                          </tbody>
+                      </table>
+                      <p align="center"><a class="popup-modal-dismiss button default " href="#">Cerrar</a></p>
+                  </div>
+              </li>
 						</ul>
 					</footer>
 				</section>
