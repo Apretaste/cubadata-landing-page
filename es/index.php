@@ -1,18 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="es">
-	<head>
-		<title>CubaData</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/assets/css/main.min.css" />
-		<link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/switchery.min.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href="/images/cubadata_icon.png">
-		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc";?>
-	</head>
+<?php include "../common/head.php" ?>
 	<body>
 		<header id="header" class="alt">
 			<div class="container-width">
@@ -71,9 +57,9 @@
                           <tr>
                               <td>Opiniones, percepciones y valoraciones de las y los cubanos sobre la propuesta de Reforma Constitucional</td>
                               <td width="10%">19 de Noviembre del 2018</td>
-                              <td width="30%">
-                                  <a href="/files/results_1.es.pdf" class="button primary btn-sm" target="_blank">Resultados</a>
-                                  <a href="/files/analysis_1.es.xlsx" class="button primary btn-sm" target="_blank">An&aacute;lisis</a>
+                              <td width="30%" align="right">
+                                  <a target = "_blank" href="https://drive.google.com/open?id=1xMeJzdwLxoJW6x6-wI3_zDtdzEwFlJ7ypqrgpgBxvRA" class="button primary btn-sm" target="_blank">Resultados</a>
+                                  <a target = "_blank" href="https://drive.google.com/open?id=13ejx0-jWzoznQ6BzUlk8gKkbPlWNs5JPFC44WUL7bVA" class="button primary btn-sm" target="_blank">An&aacute;lisis</a>
                               </td>
                           </tr>
                           </tbody>
@@ -209,7 +195,7 @@
 									<div class="data-modal">
 										<h1>ELAINE ACOSTA GONZALEZ</h1>
 										<p>Doctora en Estudios Internacionales e Interculturales por la Universidad de Deusto (Bilbao), Máster en Estudios Sociales y Políticos Latinoamericanos (Chile) y Licenciada en Sociología por la Universidad de La Habana. Es investigadora visitante en el Centro de Investigación de Cuba de la Universidad Internacional de Florida y codirectora del Programa de Investigación Interdisciplinaria sobre Atención, Familia y Bienestar. Sus áreas de estudio son el envejecimiento de la población, la migración internacional y las políticas de bienestar.</p>
-										<p><a class="popup-modal-dismiss button default " href="#">Cerrar</a></p>
+										<p><a class="popup-modal-dismiss button default" href="#">Cerrar</a></p>
 									</div>
 								</div>
 							</li>
@@ -318,47 +304,9 @@
 			<footer id="footer">
 				<p class="copyright">Copyright © 2018 por Cuba Data LLC. Todos los derechos reservados.</p>
 			</footer>
-		</div>
+    </div>
+    
+    <?php include "../common/scripts.php"; ?>
 
-		<!-- Scripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="/assets/js/jquery.scrollex.min.js"></script>
-		<script src="/assets/js/jquery.scrolly.min.js"></script>
-		<script src="/assets/js/browser.min.js"></script>
-		<script src="/assets/js/breakpoints.min.js"></script>
-		<script src="/assets/js/util.min.js"></script>
-		<script src="/assets/js/main.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-		<!-- Magnific Popup core JS file -->
-		<script src="/assets/js/jquery.magnific-popup.min.js"></script>
-		<script src="/assets/js/switchery.min.js"></script>
-		<script type="text/javascript">
-			$(function () {
-				$('.js-switch').prop("checked",false);
-				$('.popup-modal').magnificPopup({
-					type: 'inline',
-					preloader: false,
-					focus: '#username',
-					modal: true
-				});
-				$(document).on('click', '.popup-modal-dismiss', function (e) {
-					e.preventDefault();
-					$.magnificPopup.close();
-				});
-				$('.js-switch').change(function(){
-					location.href = "/en/";
-				});
-			});
-		</script>
-
-		<script type="text/javascript">
-			var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
-			elems.forEach(function(html) {
-				var switchery = new Switchery(html,{ size: 'small',secondaryColor: '#2186DD'});
-			});
-
-
-		</script>
 	</body>
 </html>

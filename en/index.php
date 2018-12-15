@@ -1,18 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
-		<title>CubaData</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/assets/css/main.min.css" />
-		<link rel="stylesheet" href="/assets/css/magnific-popup.min.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/switchery.min.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/flags.min.css">
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href="/images/cubadata_icon.png">
-		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
-	</head>
+<?php include "../common/head.php" ?>
 	<body>
 		<header id="header" class="alt">
 			<div class="container-width">
@@ -70,9 +56,9 @@
                           <tr>
                               <td>Opinions, perceptions and assessments of Cubans on the Constitutional Reform proposal</td>
                               <td width="10%">November 19, 2018</td>
-                              <td width="30%">
-                                  <a href="/files/results_1.en.pdf" class="button primary btn-sm" target="_blank">Results</a>
-                                  <a href="/files/analysis_1.en.xlsx" class="button primary btn-sm" target="_blank">Analysis</a>
+                              <td width="30%" align="right">
+                                  <a target = "_blank" href="https://drive.google.com/open?id=1xMeJzdwLxoJW6x6-wI3_zDtdzEwFlJ7ypqrgpgBxvRA" class="button primary btn-sm" target="_blank">Results</a>
+                                  <a target = "_blank" href="https://drive.google.com/open?id=13ejx0-jWzoznQ6BzUlk8gKkbPlWNs5JPFC44WUL7bVA" class="button primary btn-sm" target="_blank">Analysis</a>
                               </td>
                           </tr>
                           </tbody>
@@ -318,42 +304,7 @@
 			</footer>
 		</div>
 
-		<!-- Scripts -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="/assets/js/jquery.scrollex.min.js"></script>
-		<script src="/assets/js/jquery.scrolly.min.js"></script>
-		<script src="/assets/js/browser.min.js"></script>
-		<script src="/assets/js/breakpoints.min.js"></script>
-		<script src="/assets/js/util.min.js"></script>
-		<script src="/assets/js/main.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="/assets/js/jquery.magnific-popup.min.js"></script>
-		<script src="/assets/js/switchery.min.js"></script>
+		<?php include "../common/scripts.php"; ?>
 
-		<script type="text/javascript">
-			$(function () {
-				$('.js-switch').prop("checked","checked");
-				$('.popup-modal').magnificPopup({
-					type: 'inline',
-					preloader: false,
-					focus: '#username',
-					modal: true
-				});
-				$(document).on('click', '.popup-modal-dismiss', function (e) {
-					e.preventDefault();
-					$.magnificPopup.close();
-				});
-				$('.js-switch').change(function(){
-					location.href ="/es/";
-				});
-			});
-		</script>
-
-		<script type="text/javascript">
-			var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
-			elems.forEach(function(html) {
-				var switchery = new Switchery(html,{ size: 'small',secondaryColor: '#2186DD'});
-			});
-		</script>
 	</body>
 </html>
