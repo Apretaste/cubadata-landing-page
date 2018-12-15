@@ -42,7 +42,7 @@
 						<ul class="actions special">
 							<li><a href="/files/resultados.pdf" class="button primary" target="_blank">See Results</a></li>
               <li><a href="/files/informe_en.pdf" class="button primary" target="_blank">See Analysis</a></li>
-              <li><a href="#other-surveys-modal" class="button default popup-modal" target="_blank">Other surveys</a>
+              <li><a href="#other-surveys-modal" class="button secondary popup-modal" target="_blank">Other surveys</a>
                   <div id="other-surveys-modal" class="mfp-hide white-popup-block">
                       <table width="100%">
                           <thead>
