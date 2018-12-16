@@ -2325,10 +2325,6 @@ ul.actions.special {
     margin-left: 0;
 }
 
-ul.actions.special li:first-child {
-    padding-left: 0;
-}
-
 ul.actions.stacked {
     -moz-flex-direction: column;
     -webkit-flex-direction: column;
@@ -4233,6 +4229,11 @@ margin-top: 80px;
 
 .color-white {
     color: #ffffff;
+}
+
+a.other-surveys-action {
+    margin-bottom: 4px;
+    width: 100%;
 }
 
 

@@ -66,16 +66,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-								<?php foreach($surveys as $survey): ?>
+								                    <?php foreach($surveys as $survey): ?>
                                     <tr>
                                         <td> <?php echo strtoupper($survey->en->title); ?></td>
                                         <td><?php echo $survey->date; ?></td>
                                         <td align="right">
                                             <a href="<?php echo $survey->link_results; ?>"
-                                               class="button secondary btn-sm"
+                                               class="button secondary btn-sm other-surveys-action"
                                                target="_blank">Results</a>
                                             <a href="<?php echo $survey->link_analysis; ?>"
-                                               class="button secondary btn-sm" target="_blank">Analysis</a>
+                                               class="button secondary btn-sm other-surveys-action" target="_blank">Analysis</a>
                                         </td>
                                     </tr>
 								<?php endforeach; ?>

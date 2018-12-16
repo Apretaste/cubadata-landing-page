@@ -1,5 +1,5 @@
-<?php $lang = "es"; ?>
-<?php include "../common/head.php"; ?>
+<?php $lang = "es";?>
+<?php include "../common/head.php";?>
 <body>
 <header id="header" class="alt">
     <div class="container-width">
@@ -66,18 +66,20 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-								<?php foreach($surveys as $survey): ?>
+								<?php foreach ($surveys as $survey): ?>
                                     <tr>
                                         <td><?php echo strtoupper($survey->es->title); ?></td>
                                         <td><?php echo $survey->date; ?></td>
                                         <td align="right">
-                                            <a href="<?php echo $survey->link_results; ?>" class="button secondary btn-sm"
-                                               target="_blank">Resultados</a>
+                                            <a href="<?php echo $survey->link_results; ?>"
+                                                class="button secondary btn-sm other-surveys-action"
+                                                target="_blank">Resultados</a>
                                             <a href="<?php echo $survey->link_analysis; ?>"
-                                               class="button secondary btn-sm" target="_blank">An&aacute;lisis</a>
+                                                class="button secondary btn-sm other-surveys-action" 
+                                                target="_blank">An&aacute;lisis</a>
                                         </td>
                                     </tr>
-								<?php endforeach; ?>
+								<?php endforeach;?>
                                 </tbody>
                             </table>
                             <p align="center"><a class="popup-modal-dismiss button default " href="#">Cerrar</a></p>
@@ -377,7 +379,7 @@
     </footer>
 </div>
 
-<?php include "../common/scripts.php"; ?>
+<?php include "../common/scripts.php";?>
 
 </body>
 </html>
