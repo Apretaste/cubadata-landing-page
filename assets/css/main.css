@@ -2312,7 +2312,7 @@ ul.actions {
 }
 
 ul.actions li {
-    padding: 0 0 0 1em;
+    padding: 5px;
     vertical-align: middle;
 }
 
@@ -3856,7 +3856,7 @@ h2.font_2 {
     font-weight: normal;
     font-size: 35px;
     line-height: 1.2em;
-    font-size-adjust: none;
+    /*font-size-adjust: none;*/
     font-stretch: normal;
     -x-system-font: none;
     font-feature-settings: normal;
@@ -4234,5 +4234,6 @@ margin-top: 80px;
 .color-white {
     color: #ffffff;
 }
+
 
 /*end NEWS */
