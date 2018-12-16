@@ -26,7 +26,7 @@
         $.magnificPopup.close();
       });
       $('.js-switch').change(function(){
-        location.href ="/es/";
+        location.href ="/<?php echo $lang = 'es' ? 'en' : 'es'; ?>/";
       });
     });
   </script>

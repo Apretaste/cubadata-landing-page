@@ -1,3 +1,4 @@
+<?php $lang = "es"; ?>
 <?php include "../common/head.php"; ?>
 <body>
 <header id="header" class="alt">
