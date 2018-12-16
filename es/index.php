@@ -45,7 +45,7 @@
     <div id="main">
         <section id="report" class="main special">
             <header class="major">
-                <h2 class="font_2"><?php echo $surveys[0]->es->title; ?></h2>
+                <h2 class="font_2"><?php echo strtoupper($surveys[0]->es->title); ?></h2>
                 <p>Accede a nuestra última encuesta, e infórmate sobre qué piensan realmente los cubanos</p>
             </header>
             <footer class="major">
@@ -68,7 +68,7 @@
                                 <tbody>
 								<?php foreach($surveys as $survey): ?>
                                     <tr>
-                                        <td> <?php echo $survey->es->title; ?></td>
+                                        <td><?php echo strtoupper($survey->es->title); ?></td>
                                         <td><?php echo $survey->date; ?></td>
                                         <td align="right">
                                             <a href="<?php echo $survey->link_results; ?>" class="button secondary btn-sm"
