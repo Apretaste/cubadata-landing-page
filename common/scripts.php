@@ -8,9 +8,10 @@
   <script src="/assets/js/util.min.js"></script>
   <script src="/assets/js/main.min.js"></script>
   <script src="/assets/js/bootstrap.min.js"></script>
+
+  <!-- Magnific Popup core JS file -->
   <script src="/assets/js/jquery.magnific-popup.min.js"></script>
   <script src="/assets/js/switchery.min.js"></script>
-
   <script type="text/javascript">
     $(function () {
       $('.js-switch').prop("checked","checked");

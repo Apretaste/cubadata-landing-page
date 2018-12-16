@@ -12,7 +12,8 @@
 				</span>
         <div id="text">
             <h2 class="font_2">
-                <span class="big">PLEASE, ASK<br><span class="bold">ANYTHING</span><br>ABOUT <span class="bold">CUBA</span></span></h2>
+                <span class="big">PLEASE, ASK<br><span class="bold">ANYTHING</span><br>ABOUT <span
+                            class="bold">CUBA</span></span></h2>
             <p>We specialize in Market Research at the Island. When you need data, you are not alone anymore.</p>
         </div>
         <div id="but"><a href="#report" class="button default" id="show">See Research Results</a></div>
@@ -32,9 +33,9 @@
                 <li><a href="#experts">TEAM</a></li>
                 <li><a href="#news">PRESS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
-                <li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba"/><input
-                            type="checkbox" class="js-switch" id="idiom-main" name="idiom1" checked/><img
-                            src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english"/></li>
+                <li><img src="/images/blank.gif" width="1" height="1" class="flag flag-cu" alt="cuba"/>
+                    <input type="checkbox" class="js-switch" id="idiom-main" name="idiom1" checked/>
+                    <img src="/images/blank.gif" width="1" height="1" class="flag flag-us" alt="english"/></li>
             </ul>
         </div>
     </nav>
@@ -43,16 +44,15 @@
     <div id="main">
         <section id="report" class="main special">
             <header class="major">
-                <h2 class="font_2">Opinions, perceptions and assessments of Cubans on the Constitutional Reform
-                    proposal</h2>
+                <h2 class="font_2"><?php echo $surveys[0]->en->title; ?></h2>
                 <p>Take a look at our latest survey, and find out what Cubans really think.</p>
             </header>
             <footer class="major">
                 <ul class="actions special">
-                    <li><a href="https://drive.google.com/open?id=1xMeJzdwLxoJW6x6-wI3_zDtdzEwFlJ7ypqrgpgBxvRA"
-                           class="button primary" target="_blank">See Results</a></li>
-                    <li><a href="https://drive.google.com/open?id=13ejx0-jWzoznQ6BzUlk8gKkbPlWNs5JPFC44WUL7bVA"
-                           class="button primary" target="_blank">See Analysis</a></li>
+                    <li><a href="<?php echo $surveys[0]->link_results; ?>" class="button primary" target="_blank">See
+                            Results</a></li>
+                    <li><a href="<?php echo $surveys[0]->link_analysis; ?>" class="button primary" target="_blank">See
+                            Analysis</a></li>
                     <li><a href="#other-surveys-modal" class="button secondary popup-modal" target="_blank">Other
                             surveys</a>
                         <div id="other-surveys-modal" class="mfp-hide white-popup-block">
@@ -65,18 +65,19 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>Opinions, perceptions and assessments of Cubans on the Constitutional Reform
-                                        proposal
-                                    </td>
-                                    <td width="10%">November 19, 2018</td>
-                                    <td width="30%" align="right">
-                                        <a href="https://drive.google.com/open?id=1xMeJzdwLxoJW6x6-wI3_zDtdzEwFlJ7ypqrgpgBxvRA"
-                                           class="button primary btn-sm" target="_blank">Results</a>
-                                        <a href="https://drive.google.com/open?id=13ejx0-jWzoznQ6BzUlk8gKkbPlWNs5JPFC44WUL7bVA"
-                                           class="button primary btn-sm" target="_blank">Analysis</a>
-                                    </td>
-                                </tr>
+								<?php foreach($surveys as $survey): ?>
+                                    <tr>
+                                        <td> <?php echo $survey->en->title; ?></td>
+                                        <td><?php echo $survey->date; ?></td>
+                                        <td align="right">
+                                            <a href="<?php echo $survey->link_results; ?>"
+                                               class="button secondary btn-sm"
+                                               target="_blank">Results</a>
+                                            <a href="<?php echo $survey->link_analysis; ?>"
+                                               class="button secondary btn-sm" target="_blank">Analysis</a>
+                                        </td>
+                                    </tr>
+								<?php endforeach; ?>
                                 </tbody>
                             </table>
                             <p align="center"><a class="popup-modal-dismiss button default " href="#">Close</a></p>
