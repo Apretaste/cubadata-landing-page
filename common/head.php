@@ -13,3 +13,5 @@
 		<link rel="shortcut icon" href="/images/cubadata_icon.png">
 		<?php require $_SERVER['DOCUMENT_ROOT'] . "/google-analytics.inc"; ?>
 	</head>
+
+    <?php $surveys = json_decode(file_get_contents("../model/surveys.json")); ?>
