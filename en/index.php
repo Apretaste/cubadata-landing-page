@@ -45,14 +45,14 @@
     <div id="main">
         <section id="report" class="main special">
             <header class="major">
-                <h2 class="font_2"><?php echo strtoupper($surveys[0]->en->title); ?></h2>
+                <h2 class="font_2"><?php echo strtoupper($surveys[0]->$lang->title); ?></h2>
                 <p>Take a look at our latest survey, and find out what Cubans really think.</p>
             </header>
             <footer class="major">
                 <ul class="actions special">
-                    <li><a href="<?php echo $surveys[0]->link_results; ?>" class="button primary" target="_blank">See
+                    <li><a href="<?php echo $surveys[0]->$lang->link_results; ?>" class="button primary" target="_blank">See
                             Results</a></li>
-                    <li><a href="<?php echo $surveys[0]->link_analysis; ?>" class="button primary" target="_blank">See
+                    <li><a href="<?php echo $surveys[0]->$lang->link_analysis; ?>" class="button primary" target="_blank">See
                             Analysis</a></li>
                     <li><a href="#other-surveys-modal" class="button secondary popup-modal" target="_blank">Other
                             surveys</a>
@@ -66,15 +66,15 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-								                    <?php foreach($surveys as $survey): ?>
+								 <?php foreach($surveys as $survey): ?>
                                     <tr>
-                                        <td> <?php echo strtoupper($survey->en->title); ?></td>
+                                        <td> <?php echo strtoupper($survey->$lang->title); ?></td>
                                         <td><?php echo $survey->date; ?></td>
                                         <td align="right">
-                                            <a href="<?php echo $survey->link_results; ?>"
+                                            <a href="<?php echo $survey->$lang->link_results; ?>"
                                                class="button secondary btn-sm other-surveys-action"
                                                target="_blank">Results</a>
-                                            <a href="<?php echo $survey->link_analysis; ?>"
+                                            <a href="<?php echo $survey->$lang->link_analysis; ?>"
                                                class="button secondary btn-sm other-surveys-action" target="_blank">Analysis</a>
                                         </td>
                                     </tr>

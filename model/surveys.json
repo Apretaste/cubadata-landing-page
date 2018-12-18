@@ -1,24 +1,32 @@
-[
-    {
+[{
         "en": {
-            "title": "Opinions, perceptions and assessments of Cubans on the Constitutional Reform proposal"
+            "title": "Opinions, perceptions and assessments of Cubans on the Constitutional Reform proposal",
+            "link_results": "https://docs.google.com/document/d/1UDcz1Afo79rckqcumn8V4-O3b9pUbNXLmwAU9gikHEc",
+            "link_analysis": "https://docs.google.com/document/d/1PTWv9GTRwDQH_ijF79W0lSW4sXMlOFBKWmhscLOG3sA"
+
         },
         "es": {
-            "title": "Opiniones, percepciones y valoraciones de las y los cubanos sobre la propuesta de Reforma Constitucional"
+            "title": "Opiniones, percepciones y valoraciones de las y los cubanos sobre la propuesta de Reforma Constitucional",
+            "link_results": "https://docs.google.com/document/d/1UDcz1Afo79rckqcumn8V4-O3b9pUbNXLmwAU9gikHEc",
+            "link_analysis": "https://docs.google.com/document/d/1FKVyvd9fuKOY4S0l9IKKsqYpSlsN6KEIRtJwH5UQH_0"
+
         },
-        "date": "Nov, 2018",
-        "link_results": "https://drive.google.com/open?id=1xMeJzdwLxoJW6x6-wI3_zDtdzEwFlJ7ypqrgpgBxvRA",
-        "link_analysis": "https://drive.google.com/open?id=13ejx0-jWzoznQ6BzUlk8gKkbPlWNs5JPFC44WUL7bVA"
+        "date": "Nov, 2018"
     },
     {
         "en": {
-            "title": "CUBA: EXPLORING THE CITIZEN 'S OPINION UNDER THE GOVERNMENT OF DÍAZ-CANEL"
+            "title": "CUBA: EXPLORING THE CITIZEN 'S OPINION UNDER THE GOVERNMENT OF DÍAZ-CANEL",
+            "link_results": "/files/resultados.pdf",
+            "link_analysis": "/files/informe_en.pdf"
         },
         "es": {
-            "title": "CUBA: EXPLORANDO LA OPINIÓN CIUDADANA BAJO EL GOBIERNO DE DÍAZ-CANEL"
+            "title": "CUBA: EXPLORANDO LA OPINIÓN CIUDADANA BAJO EL GOBIERNO DE DÍAZ-CANEL",
+            "link_results": "/files/resultados.pdf",
+            "link_analysis": "/files/informe_en.pdf"
         },
-        "date": "Jun, 2018",
-        "link_results": "/files/resultados.pdf",
-        "link_analysis": "/files/informe_en.pdf"
+        "date": "Jun, 2018"
+
     }
 ]
+
+
