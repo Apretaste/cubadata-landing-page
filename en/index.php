@@ -154,7 +154,7 @@
 
 				<ul class="features">
 					<li>
-						<img src="/images/ex1.jpeg" alt="ARMANDO CHAGUACEDA" width="192" height="222">
+						<img src="/images/people/ex1.jpeg" alt="ARMANDO CHAGUACEDA" width="192" height="222">
 						<h3>ARMANDO CHAGUACEDA</h3>
 						<a href="#test-modal" class="button primary popup-modal">Read Bio</a></p>
 						<div id="test-modal" class="mfp-hide white-popup-block">
@@ -172,7 +172,7 @@
 						</div>
 					</li>
 					<li>
-						<img src="/images/ex2.jpeg" width="192" height="222" alt="Juan Trak Vazquez">
+						<img src="/images/people/ex2.jpeg" width="192" height="222" alt="Juan Trak Vazquez">
 						<h3>JUAN M TRAK VÁSQUEZ</h3>
 						<a href="#test-modal1" class="button primary popup-modal">Read Bio</a>
 						<div id="test-modal1" class="mfp-hide white-popup-block">
@@ -191,7 +191,7 @@
 						</div>
 					</li>
 					<li>
-						<img src="/images/ex3.jpeg" alt="ELAINE ACOSTA GONZALEZ" width="192" height="222">
+						<img src="/images/people/ex3.jpeg" alt="ELAINE ACOSTA GONZALEZ" width="192" height="222">
 						<h3>ELAINE ACOSTA GONZALEZ</h3>
 						<a href="#test-modal2" class="button primary popup-modal">Read Bio</a></p>
 						<div id="test-modal2" class="mfp-hide white-popup-block">
@@ -208,7 +208,7 @@
 						</div>
 					</li>
 					<li>
-						<img src="/images/ex4.png" alt="RODRIGO SALAZAR-ELENA" width="192" height="222">
+						<img src="/images/people/ex4.png" alt="RODRIGO SALAZAR-ELENA" width="192" height="222">
 						<h3>RODRIGO SALAZAR-ELENA</h3>
 						<a href="#test-modal3" class="button primary popup-modal">Read Bio</a></p>
 						<div id="test-modal3" class="mfp-hide white-popup-block">
@@ -225,6 +225,18 @@
 							</div>
 						</div>
 					</li>
+					<li>
+						<img src="/images/people/ex5.jpeg" width="192" height="222" alt="Arístides A. Vara Horna">
+						<h3>ARÍSTIDES A. VARA HORNA</h3>
+						<a href="#test-modal4" class="button primary popup-modal">Read Bio</a></p>
+						<div id="test-modal4" class="mfp-hide white-popup-block">
+							<div class="data-modal">
+								<h1>ARÍSTIDES A. VARA HORNA</h1>
+								<p>PhD in Education and Master in Administration and Social Management. Head of the Research Institute of the College of Management Sciences and Human Resources of the University of San Martín de Porres (USMP) in Perú. International consultant in the field of estimates of imapact of the violence against women.</p>
+								<p><a class="popup-modal-dismiss button default " href="#">Cerrar</a></p>
+							</div>
+						</div>
+					</li>
 				</ul>
 
 				<header class="major">
@@ -232,12 +244,12 @@
 				</header>
 				<ul class="core">
 					<li>
-						<img src="/images/pablo.jpeg" alt="PABLO DIAZ" width="192" height="222">
+						<img src="/images/people/pablo.jpeg" alt="PABLO DIAZ" width="192" height="222">
 						<h3>PABLO DIAZ</h3>
 						<p>Co-founder of CubaData. Journalist. Director of <a target="_blank" href="http://www.diariodecuba.com">Diario de Cuba</a>.</p>
 					</li>
 					<li>
-						<img src="/images/team-salvi.png" alt="SALVI PASCUAL" width="192" height="222">
+						<img src="/images/people/salvi.png" alt="SALVI PASCUAL" width="192" height="222">
 						<h3>SALVI PASCUAL</h3>
 						<p>Coder, Entrepreneur, and University Professor. Founder of <a target="_blank" href="http://www.apretaste.org">Apretaste!</a></p>
 					</li>
