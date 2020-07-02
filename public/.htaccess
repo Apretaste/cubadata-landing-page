@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(\w+)/(\w+)/?$ index.php?c=$1&a=$2 [L]
+RewriteRule ^(\w+)/?$ index.php?c=$1 [L]

@@ -1,4 +1,10 @@
+tmp/
+logs/
+vendor/
+classes/
+configs/config.ini
+composer.lock
 .idea
-.idea/*
-.vscode
-.vscode/*
+.php_cs.cache
+.buildpath
+.editorconfig
