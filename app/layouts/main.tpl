@@ -58,7 +58,7 @@
 					<section>
 						<div class="mini-posts">
 							<article>
-								<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="#" class="image"><img src="images/surveys/percepcion-de-los-cubanos-sobre-la-actuacion-del-gobierno-ante-el-covid-19.png" alt="Percepción de los cubanos sobre la actuación del gobierno ante el Covid-19" /></a>
 								<h3>Percepción de los cubanos sobre la actuación del gobierno ante el Covid-19.</h3>
 							</article>
 						</div>

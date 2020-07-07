@@ -14,7 +14,7 @@
 	<!-- Armando Chagüaceda -->
 	<div class="row team-expert">
 		<div class="col-12">
-			<span class="image left"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image left"><img src="images/team/armando_chaguaceda.png" alt="Armando Chagüaceda" /></span></span>
 			<h3>Armando Chagüaceda</h3>
 			<ul class="icons right">
 				<li><a href="#!" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -31,7 +31,7 @@
 	<!-- Juan Trak Vázquez -->
 	<div class="row team-expert">
 		<div class="col-12 align-right">
-			<span class="image right"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image right"><img src="images/team/juan_manuel_trak.png" alt="Juan Manuel Trak Vázquez" /></span>
 			<h3>Juan Trak Vázquez</h3>
 			<ul class="icons">
 				<li><a href="#!" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -48,7 +48,7 @@
 	<!-- Elaine Acosta González -->
 	<div class="row team-expert">
 		<div class="col-12">
-			<span class="image left"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image left"><img src="images/team/elaine_acosta_gonzalez.png" alt="Elaine Acosta González" /></span>
 			<h3>Elaine Acosta González</h3>
 			<ul class="icons right">
 				<li><a href="#!" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -65,7 +65,7 @@
 	<!-- Rodrigo Salazar-Elena -->
 	<div class="row team-expert">
 		<div class="col-12 align-right">
-			<span class="image right"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image right"><img src="images/team/rodrigo_salazar_elena.png" alt="Rodrigo Salazar Elena" /></span>
 			<h3>Rodrigo Salazar-Elena</h3>
 			<ul class="icons">
 				<li><a href="#!" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -82,7 +82,7 @@
 	<!-- Arístides A. Vara Horna -->
 	<div class="row team-expert">
 		<div class="col-12">
-			<span class="image left"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image left"><img src="images/team/aristides_vara_horna.png" alt="Arístides Vara Horna" /></span>
 			<h3>Arístides A. Vara Horna</h3>
 			<ul class="icons right">
 				<li><a href="https://www.linkedin.com/in/aristides-alfredo-vara-horna-b7523637/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -101,7 +101,7 @@
 	<div class="row">
 		<div class="col-6 col-12-small">
 			<span class="image fit">
-				<img src="images/pic01.jpg" alt="Pablo Díaz" />
+				<img src="images/team/pablo_diaz_espi.png" alt="Pablo Díaz" />
 			</span>
 			<h3>Pablo Díaz</h3>
 			<ul class="icons">
@@ -116,7 +116,7 @@
 		</div>
 		<div class="col-6 col-12-small">
 			<span class="image fit">
-				<img src="images/pic02.jpg" alt="Salvi Pascual" />
+				<img src="images/team/salvi_pascual.png" alt="Salvi Pascual" />
 			</span>
 			<h3>Salvi Pascual</h3>
 			<ul class="icons">

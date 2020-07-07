@@ -2279,3 +2279,7 @@ button,
 .team-expert {
 	margin-bottom: 3em;
 }
+
+.press {
+	border: 1px solid #dde1e3;
+}
