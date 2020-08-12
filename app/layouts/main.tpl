@@ -18,7 +18,7 @@
 					<header id="header">
 						<span>
 							<a href="/">
-								<img src="images/cubadata_logo.png" alt="CubaData Logo"/>
+								<img src="images/cubadata_logo_horizontal.png" width="133" height="37" alt="CubaData Logo"/>
 							</a>
 						</span>
 <!-- 
